@@ -38,7 +38,7 @@ fs.createReadStream("./Data/raw/Recovered_raw.csv")
   .on("end", () => {
     formated_data = formatData(RECOVERED_DATA, formated_data, "recovered");
 
-    formated_data = applyStatistics(formated_data);
+    //formated_data = applyStatistics(formated_data);
 
     saveToFile(formated_data);
   });
