@@ -45,7 +45,7 @@ fs.createReadStream("./Data/raw/Recovered_raw.csv")
 
 saveToFile = data => {
   fs.writeFile(
-    path.join(__dirname, "Data", "formated", "data.json"),
+    path.join(__dirname, "Data", "formated", "data_v1.json"),
     JSON.stringify(data),
     function(err) {
       if (err) console.log(err);
@@ -69,10 +69,15 @@ getTotals = data => {
   });
   return data;
 };
-
-formatData = (INFECTED_DATA, formated_data, type) => {
+/**
+ * Format date to the appropriate JSON structure
+ * @param unformated_data - parsed unstructured data parsed from CSV
+ * @param formated_data - output structured data
+ * @param type - designates the type of unstructured data set
+ */
+formatData = (unformated_data, formated_data, type) => {
   // Create list of countries within the data
-  INFECTED_DATA.forEach(element => {
+  unformated_data.forEach(element => {
     let country = element["Country/Region"].toUpperCase();
     //console.log(country)
     let timedata = formated_data[country]["TIME_DATA"];
