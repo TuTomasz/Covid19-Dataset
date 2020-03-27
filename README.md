@@ -2,7 +2,7 @@
 
 ## Description
 
-This project converts csv format data from the 2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE to JSON data shown below with aditional fields and statiscics coming soon.
+This project converts csv format data from the 2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE to JSON data shown below with aditional fields and statistics coming soon.
 
 The data ***auto-updates*** at specified intervals to ensure its always up to date with the original source.
 
