@@ -23,9 +23,9 @@ jobs:
     - name: Install Modules
       run: npm install
     - name: Get fresh CSV Data
-      run: node main.js
+      run: node fetch.js
     - name: Format data to JSON format 
-      run: node action.js
+      run: node format.js
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"
