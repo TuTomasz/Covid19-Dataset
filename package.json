@@ -1,0 +1,22 @@
+{
+  "name": "corona-api",
+  "version": "1.0.0",
+  "description": "data API",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "coronavirus",
+    "covid-19",
+    "API"
+  ],
+  "author": "Tomaszito",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^4.8.8",
+    "csv2json": "^2.0.2",
+    "download-file": "^0.1.5",
+    "node-fetch": "^2.6.0"
+  }
+}
