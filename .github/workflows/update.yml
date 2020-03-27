@@ -1,0 +1,40 @@
+# This workflow will do a clean install of node dependencies, build the source code and run tests across different versions of node
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
+
+name: Covid19 API update action
+on:
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '*/15 * * * *'
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [10.x, 12.x]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+        
+    - name: Install Modules
+      run: npm install
+    - name: Get fresh CSV Data
+      run: node main.js
+    - name: Format data to JSON format 
+      run: node action.js
+    - name: Push updated Data to repo
+    - name: Commit files
+      run: |
+        cd main
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git diff-index --quiet HEAD || git commit -m "Update data file" -a
+    - name: Push to master
+      uses: tcitry/push-to-master@v1.0
