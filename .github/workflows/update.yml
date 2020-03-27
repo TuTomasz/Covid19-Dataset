@@ -28,12 +28,13 @@ jobs:
       run: node action.js
     - name: Commit files
       run: |
-        
+
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
         git diff-index --quiet HEAD || git commit -m "Update data file" -a
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        
