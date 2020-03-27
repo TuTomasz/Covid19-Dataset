@@ -26,7 +26,6 @@ jobs:
       run: node main.js
     - name: Format data to JSON format 
       run: node action.js
-    - name: Push updated Data to repo
     - name: Commit files
       run: |
         cd main
