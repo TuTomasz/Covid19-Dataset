@@ -11,30 +11,28 @@ The data ***auto-updates*** at specified intervals to ensure its always up to da
 - Aditional statistics will be added to this format in the near future.
 
 ```YML
-{
-    "CHINA": {
-    "TOTAL_INFECTED": 81782,
-    "TOTAL_DEATHS": 3291,
-    "TOTAL_RECOVERED": 74181,
-    "TIME_DATA": {
-      "INFECTED": {
+"china": {
+    "total_infected": 81897,
+    "total_deaths": 3296,
+    "total_recovered": 74720,
+    "date": {
+      "infected": {
         "2020-01-22": 548,
         ...
-        "2020-03-26": 81782
+        "2020-03-27": 81897
       },
-      "DEATHS": {
+      "deaths": {
         "2020-01-22": 17,
         ...
-        "2020-03-26": 3291
+        "2020-03-27": 3296
       },
-      "RECOVERED": {
+      "recovered": {
         "2020-01-22": 28,
         ...
-        "2020-03-26": 74181
+        "2020-03-27": 74720
       }
     }
   },
-}
 ```
 
 ## Usage Example

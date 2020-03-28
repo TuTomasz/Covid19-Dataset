@@ -13,30 +13,32 @@ fs.createReadStream("./Data/raw/Cases_raw.csv")
   .on("end", () => {
     // Create list of countries within the data
     INFECTED_DATA.forEach(element => {
-      let country = element["Country/Region"].toUpperCase();
+      let country = element["Country/Region"]
+        .toLowerCase()
+        .replace(/[^a-zA-Z0-9]/g, "_");
 
       formated_data[country] = {
-        TOTAL_INFECTED: 0,
-        TOTAL_DEATHS: 0,
-        TOTAL_RECOVERED: 0,
-        TIME_DATA: { INFECTED: null }
+        total_infected: 0,
+        total_deaths: 0,
+        total_recovered: 0,
+        date: { infected: null }
       };
     });
-    formated_data = formatData(INFECTED_DATA, formated_data, "INFECTED");
+    formated_data = formatData(INFECTED_DATA, formated_data, "infected");
   });
 // Read and merge Death data with new format
 fs.createReadStream("./Data/raw/Death_raw.csv")
   .pipe(csv("Province/States", "Country/Region"))
   .on("data", data => DEATH_DATA.push(data))
   .on("end", () => {
-    formated_data = formatData(DEATH_DATA, formated_data, "DEATHS");
+    formated_data = formatData(DEATH_DATA, formated_data, "deaths");
   });
 // Read and merge Recovered data with new format
 fs.createReadStream("./Data/raw/Recovered_raw.csv")
   .pipe(csv("Province/States", "Country/Region"))
   .on("data", data => RECOVERED_DATA.push(data))
   .on("end", () => {
-    formated_data = formatData(RECOVERED_DATA, formated_data, "RECOVERED");
+    formated_data = formatData(RECOVERED_DATA, formated_data, "recovered");
 
     formated_data = getTotals(formated_data);
     console.log(formated_data);
@@ -59,13 +61,13 @@ saveToFile = data => {
  */
 getTotals = data => {
   Object.entries(data).forEach(([country, stats]) => {
-    let infected = Math.max(...Object.values(stats["TIME_DATA"]["INFECTED"]));
-    let deaths = Math.max(...Object.values(stats["TIME_DATA"]["DEATHS"]));
-    let recovered = Math.max(...Object.values(stats["TIME_DATA"]["RECOVERED"]));
+    let infected = Math.max(...Object.values(stats["date"]["infected"]));
+    let deaths = Math.max(...Object.values(stats["date"]["deaths"]));
+    let recovered = Math.max(...Object.values(stats["date"]["recovered"]));
 
-    stats["TOTAL_INFECTED"] = infected;
-    stats["TOTAL_DEATHS"] = deaths;
-    stats["TOTAL_RECOVERED"] = recovered;
+    stats["total_infected"] = infected;
+    stats["total_deaths"] = deaths;
+    stats["total_recovered"] = recovered;
   });
   return data;
 };
@@ -78,9 +80,12 @@ getTotals = data => {
 formatData = (unformated_data, formated_data, type) => {
   // Create list of countries within the data
   unformated_data.forEach(element => {
-    let country = element["Country/Region"].toUpperCase();
+    let country = element["Country/Region"]
+      .toLowerCase()
+      .replace(/[^a-zA-Z0-9]/g, "_");
+
     //console.log(country)
-    let timedata = formated_data[country]["TIME_DATA"];
+    let timedata = formated_data[country]["date"];
 
     Object.entries(element).forEach(([key, value]) => {
       let dateReg = /^[0-9]{1,2}[/][0-9]{2}[/][0-9]{2}$/g;
