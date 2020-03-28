@@ -11,29 +11,36 @@ The data ***auto-updates*** at specified intervals to ensure its always up to da
 - Aditional statistics will be added to this format in the near future.
 
 ```YML
-"china": {
-    "total_infected": 81897,
-    "total_deaths": 3296,
-    "total_recovered": 74720,
+"us": {
+    "total_infected": 101657,
+    "total_deaths": 1581,
+    "total_recovered": 869,
+    "doubling_rate": 3.1033625150948674,
     "date": {
       "infected": {
-        "2020-01-22": 548,
+        "2020-01-22": 1,
         ...
-        "2020-03-27": 81897
+        "2020-03-27": 101657
       },
       "deaths": {
-        "2020-01-22": 17,
+        "2020-01-22": 0,
         ...
-        "2020-03-27": 3296
+        "2020-03-27": 1581
       },
       "recovered": {
-        "2020-01-22": 28,
+        "2020-01-22": 0,
         ...
-        "2020-03-27": 74720
+        "2020-03-27": 869
       }
     }
   },
 ```
+## Statistics
+
+- ***total_infected*** - number of infections in the country of interest
+- ***total_deaths*** - number of deaths in the country of interest
+- ***total_recoveries*** - number of recoveries in the country of interest
+- ***doubling_rate*** - dubling rate in days
 
 ## Usage Example
 
@@ -43,6 +50,6 @@ This is example using Javascript to fetch data
 fetch("http://tiny.cc/Covid-19")
   .then(response => response.json())
   .then(data => {
-    console.log(data["china"]);
+    console.log(data["us"]);
 });
 ```
