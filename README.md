@@ -42,6 +42,7 @@ The data ***auto-updates*** at specified intervals to ensure its always up to da
 - ***total_deaths*** - number of deaths in the country of interest
 - ***total_recoveries*** - number of recoveries in the country of interest
 - ***doubling_rate*** - dubling rate in days
+- ***mortality_rate*** - current mortality rate of the country of interest
 
 ## Usage Example
 
