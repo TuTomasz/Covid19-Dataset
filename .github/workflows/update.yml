@@ -24,6 +24,8 @@ jobs:
       run: npm install
     - name: Get fresh CSV Data
       run: node fetch.js
+    - name: Remove old Data
+      run:  rm -r Data/formated/data_v1.json 
     - name: Format data to JSON format 
       run: node format.js
     - name: Commit files
