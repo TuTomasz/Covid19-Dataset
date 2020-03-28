@@ -53,3 +53,16 @@ fetch("http://tiny.cc/Covid-19")
     console.log(data["us"]);
 });
 ```
+This is example using Python to fetch data
+```python
+
+import json
+import urllib3
+
+http = urllib3.PoolManager()
+response= http.request('GET', "http://tiny.cc/Covid-19")
+data = json.loads(response.data)
+
+print(data['us'])
+
+```
