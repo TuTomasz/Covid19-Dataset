@@ -22,6 +22,7 @@ fs.createReadStream("./Data/raw/Cases_raw.csv")
         total_deaths: 0,
         total_recovered: 0,
         doubling_rate: 0,
+        mortality_rate: 0,
         date: { infected: null }
       };
     });
@@ -43,7 +44,8 @@ fs.createReadStream("./Data/raw/Recovered_raw.csv")
 
     formated_data = getTotals(formated_data);
     formated_data = getDoublingTime(formated_data, 5, "doubling_rate");
-    //console.log(formated_data["us"]);
+    formated_data = getMortalityRate(formated_data);
+
     saveToFile(formated_data);
   });
 
@@ -57,6 +59,19 @@ saveToFile = data => {
   );
 };
 /**
+ * Calculate mortality rate for each country
+ * @param  {} data  - formated json data
+ */
+getMortalityRate = data => {
+  Object.entries(data).forEach(([country, stats]) => {
+    let deaths = stats["total_deaths"];
+    let infected = stats["total_infected"];
+    let mortalityRate = parseFloat(((deaths * 100) / infected).toFixed(3));
+    stats["mortality_rate"] = mortalityRate;
+  });
+  return data;
+};
+/**
  * Calculate doubling rate of infection
  * @param  data - formated json data
  * @param  period - period of doubling you want to calculate ex) 5,10 day
@@ -67,7 +82,9 @@ getDoublingTime = (data, period, label) => {
     let infected = Object.values(stats["date"]["infected"]);
     let N_t = infected[infected.length - 1];
     let N_0 = infected[infected.length - 1 - 5];
-    let growth_rate = (period * Math.log10(2)) / Math.log10(N_t / N_0);
+    let growth_rate = parseFloat(
+      ((period * Math.log10(2)) / Math.log10(N_t / N_0)).toFixed(3)
+    );
     stats[label] = growth_rate;
   });
 

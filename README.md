@@ -15,7 +15,8 @@ The data ***auto-updates*** at specified intervals to ensure its always up to da
     "total_infected": 101657,
     "total_deaths": 1581,
     "total_recovered": 869,
-    "doubling_rate": 3.1033625150948674,
+    "doubling_rate": 3.103,
+    "mortality_rate": 1.555,
     "date": {
       "infected": {
         "2020-01-22": 1,
@@ -60,7 +61,7 @@ import json
 import urllib3
 
 http = urllib3.PoolManager()
-response= http.request('GET', "http://tiny.cc/Covid-19")
+response = http.request('GET', "http://tiny.cc/Covid-19")
 data = json.loads(response.data)
 
 print(data['us'])

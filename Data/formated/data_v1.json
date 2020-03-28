@@ -3,7 +3,8 @@
     "total_infected": 110,
     "total_deaths": 4,
     "total_recovered": 2,
-    "doubling_rate": 3.4259912805429065,
+    "doubling_rate": 3.426,
+    "mortality_rate": 3.636,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -161,7 +162,8 @@
     "total_infected": 186,
     "total_deaths": 8,
     "total_recovered": 31,
-    "doubling_rate": 4.701787349982251,
+    "doubling_rate": 4.702,
+    "mortality_rate": 4.301,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -319,7 +321,8 @@
     "total_infected": 409,
     "total_deaths": 26,
     "total_recovered": 65,
-    "doubling_rate": 4.878499307458075,
+    "doubling_rate": 4.878,
+    "mortality_rate": 6.357,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -477,7 +480,8 @@
     "total_infected": 267,
     "total_deaths": 3,
     "total_recovered": 1,
-    "doubling_rate": 4.030577673542656,
+    "doubling_rate": 4.031,
+    "mortality_rate": 1.124,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -636,6 +640,7 @@
     "total_deaths": 0,
     "total_recovered": 0,
     "doubling_rate": 5,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -793,7 +798,8 @@
     "total_infected": 7,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 1.781035935540111,
+    "doubling_rate": 1.781,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -951,7 +957,8 @@
     "total_infected": 589,
     "total_deaths": 13,
     "total_recovered": 72,
-    "doubling_rate": 4.359800797984842,
+    "doubling_rate": 4.36,
+    "mortality_rate": 2.207,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -1109,7 +1116,8 @@
     "total_infected": 329,
     "total_deaths": 1,
     "total_recovered": 28,
-    "doubling_rate": 6.56141344530751,
+    "doubling_rate": 6.561,
+    "mortality_rate": 0.304,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -1267,7 +1275,8 @@
     "total_infected": 3143,
     "total_deaths": 13,
     "total_recovered": 194,
-    "doubling_rate": 4.898094516581447,
+    "doubling_rate": 4.898,
+    "mortality_rate": 0.414,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -1425,7 +1434,8 @@
     "total_infected": 7657,
     "total_deaths": 58,
     "total_recovered": 225,
-    "doubling_rate": 4.561985855130135,
+    "doubling_rate": 4.562,
+    "mortality_rate": 0.757,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -1583,7 +1593,8 @@
     "total_infected": 165,
     "total_deaths": 3,
     "total_recovered": 15,
-    "doubling_rate": 3.7203643185148048,
+    "doubling_rate": 3.72,
+    "mortality_rate": 1.818,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -1741,7 +1752,8 @@
     "total_infected": 10,
     "total_deaths": 0,
     "total_recovered": 1,
-    "doubling_rate": 3.7823539868301506,
+    "doubling_rate": 3.782,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -1899,7 +1911,8 @@
     "total_infected": 466,
     "total_deaths": 4,
     "total_recovered": 227,
-    "doubling_rate": 10.406220291800965,
+    "doubling_rate": 10.406,
+    "mortality_rate": 0.858,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -2057,7 +2070,8 @@
     "total_infected": 48,
     "total_deaths": 5,
     "total_recovered": 11,
-    "doubling_rate": 6.023552099133024,
+    "doubling_rate": 6.024,
+    "mortality_rate": 10.417,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -2215,7 +2229,8 @@
     "total_infected": 24,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 6.429978484254658,
+    "doubling_rate": 6.43,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -2373,7 +2388,8 @@
     "total_infected": 94,
     "total_deaths": 0,
     "total_recovered": 32,
-    "doubling_rate": 16.304631124331262,
+    "doubling_rate": 16.305,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -2531,7 +2547,8 @@
     "total_infected": 7284,
     "total_deaths": 289,
     "total_recovered": 858,
-    "doubling_rate": 4.550534943574152,
+    "doubling_rate": 4.551,
+    "mortality_rate": 3.968,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -2689,7 +2706,8 @@
     "total_infected": 6,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 3.1546487678572874,
+    "doubling_rate": 3.155,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -2847,7 +2865,8 @@
     "total_infected": 3,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 8.547556456757274,
+    "doubling_rate": 8.548,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -3005,7 +3024,8 @@
     "total_infected": 61,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 3.7153317651071713,
+    "doubling_rate": 3.715,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -3163,7 +3183,8 @@
     "total_infected": 237,
     "total_deaths": 4,
     "total_recovered": 5,
-    "doubling_rate": 5.485684240575252,
+    "doubling_rate": 5.486,
+    "mortality_rate": 1.688,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -3321,7 +3342,8 @@
     "total_infected": 3417,
     "total_deaths": 92,
     "total_recovered": 6,
-    "doubling_rate": 4.3699038729833415,
+    "doubling_rate": 4.37,
+    "mortality_rate": 2.692,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -3479,7 +3501,8 @@
     "total_infected": 115,
     "total_deaths": 0,
     "total_recovered": 11,
-    "doubling_rate": 12.951407304122572,
+    "doubling_rate": 12.951,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -3637,7 +3660,8 @@
     "total_infected": 293,
     "total_deaths": 3,
     "total_recovered": 9,
-    "doubling_rate": 7.717688265564056,
+    "doubling_rate": 7.718,
+    "mortality_rate": 1.024,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -3795,7 +3819,8 @@
     "total_infected": 180,
     "total_deaths": 9,
     "total_recovered": 12,
-    "doubling_rate": 3.958720345942788,
+    "doubling_rate": 3.959,
+    "mortality_rate": 5,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -3953,7 +3978,8 @@
     "total_infected": 5,
     "total_deaths": 1,
     "total_recovered": 0,
-    "doubling_rate": 6.7845772442836205,
+    "doubling_rate": 6.785,
+    "mortality_rate": 20,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -4111,7 +4137,8 @@
     "total_infected": 99,
     "total_deaths": 0,
     "total_recovered": 11,
-    "doubling_rate": 21.09355776147865,
+    "doubling_rate": 21.094,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -4269,7 +4296,8 @@
     "total_infected": 91,
     "total_deaths": 2,
     "total_recovered": 2,
-    "doubling_rate": 4.216326044249199,
+    "doubling_rate": 4.216,
+    "mortality_rate": 2.198,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -4427,7 +4455,8 @@
     "total_infected": 4682,
     "total_deaths": 54,
     "total_recovered": 256,
-    "doubling_rate": 2.9899110738964234,
+    "doubling_rate": 2.99,
+    "mortality_rate": 1.153,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -4586,6 +4615,7 @@
     "total_deaths": 0,
     "total_recovered": 0,
     "doubling_rate": null,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -4743,7 +4773,8 @@
     "total_infected": 3,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 3.1546487678572874,
+    "doubling_rate": 3.155,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -4901,7 +4932,8 @@
     "total_infected": 1610,
     "total_deaths": 5,
     "total_recovered": 43,
-    "doubling_rate": 3.7062727689254795,
+    "doubling_rate": 3.706,
+    "mortality_rate": 0.311,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -5059,7 +5091,8 @@
     "total_infected": 81897,
     "total_deaths": 3296,
     "total_recovered": 74720,
-    "doubling_rate": 612.6234489025728,
+    "doubling_rate": 612.623,
+    "mortality_rate": 4.025,
     "date": {
       "infected": {
         "2020-01-22": 548,
@@ -5217,7 +5250,8 @@
     "total_infected": 539,
     "total_deaths": 6,
     "total_recovered": 10,
-    "doubling_rate": 4.090339495506258,
+    "doubling_rate": 4.09,
+    "mortality_rate": 1.113,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -5375,7 +5409,8 @@
     "total_infected": 4,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 12.047104198266048,
+    "doubling_rate": 12.047,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -5533,7 +5568,8 @@
     "total_infected": 51,
     "total_deaths": 3,
     "total_recovered": 2,
-    "doubling_rate": 6.53138217926069,
+    "doubling_rate": 6.531,
+    "mortality_rate": 5.882,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -5691,7 +5727,8 @@
     "total_infected": 263,
     "total_deaths": 2,
     "total_recovered": 3,
-    "doubling_rate": 5.139645193835657,
+    "doubling_rate": 5.14,
+    "mortality_rate": 0.76,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -5849,7 +5886,8 @@
     "total_infected": 101,
     "total_deaths": 0,
     "total_recovered": 3,
-    "doubling_rate": 1.7538588468240885,
+    "doubling_rate": 1.754,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -6007,7 +6045,8 @@
     "total_infected": 586,
     "total_deaths": 3,
     "total_recovered": 37,
-    "doubling_rate": 4.145688901636814,
+    "doubling_rate": 4.146,
+    "mortality_rate": 0.512,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -6166,6 +6205,7 @@
     "total_deaths": 10,
     "total_recovered": 597,
     "doubling_rate": null,
+    "mortality_rate": 1.404,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -6323,7 +6363,8 @@
     "total_infected": 80,
     "total_deaths": 2,
     "total_recovered": 4,
-    "doubling_rate": 4.192362080281438,
+    "doubling_rate": 4.192,
+    "mortality_rate": 2.5,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -6481,7 +6522,8 @@
     "total_infected": 162,
     "total_deaths": 5,
     "total_recovered": 15,
-    "doubling_rate": 6.49355376528192,
+    "doubling_rate": 6.494,
+    "mortality_rate": 3.086,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -6639,7 +6681,8 @@
     "total_infected": 2279,
     "total_deaths": 9,
     "total_recovered": 11,
-    "doubling_rate": 4.87851429869638,
+    "doubling_rate": 4.879,
+    "mortality_rate": 0.395,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -6797,7 +6840,8 @@
     "total_infected": 2200,
     "total_deaths": 52,
     "total_recovered": 57,
-    "doubling_rate": 9.274057934881489,
+    "doubling_rate": 9.274,
+    "mortality_rate": 2.364,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -6955,7 +6999,8 @@
     "total_infected": 12,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 1.3947147282556491,
+    "doubling_rate": 1.395,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -7113,7 +7158,8 @@
     "total_infected": 581,
     "total_deaths": 20,
     "total_recovered": 3,
-    "doubling_rate": 3.280446261581946,
+    "doubling_rate": 3.28,
+    "mortality_rate": 3.442,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -7271,7 +7317,8 @@
     "total_infected": 1595,
     "total_deaths": 36,
     "total_recovered": 3,
-    "doubling_rate": 4.923880652442664,
+    "doubling_rate": 4.924,
+    "mortality_rate": 2.257,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -7429,7 +7476,8 @@
     "total_infected": 536,
     "total_deaths": 30,
     "total_recovered": 116,
-    "doubling_rate": 7.0131896289859315,
+    "doubling_rate": 7.013,
+    "mortality_rate": 5.597,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -7587,7 +7635,8 @@
     "total_infected": 13,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 2.363532898783976,
+    "doubling_rate": 2.364,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -7746,6 +7795,7 @@
     "total_deaths": 0,
     "total_recovered": 0,
     "doubling_rate": 5,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -7903,7 +7953,8 @@
     "total_infected": 6,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 1.934264036172708,
+    "doubling_rate": 1.934,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -8061,7 +8112,8 @@
     "total_infected": 575,
     "total_deaths": 1,
     "total_recovered": 11,
-    "doubling_rate": 6.107317850831742,
+    "doubling_rate": 6.107,
+    "mortality_rate": 0.174,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -8219,7 +8271,8 @@
     "total_infected": 9,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 4.273778228378637,
+    "doubling_rate": 4.274,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -8377,7 +8430,8 @@
     "total_infected": 16,
     "total_deaths": 0,
     "total_recovered": 4,
-    "doubling_rate": 9.249523598468059,
+    "doubling_rate": 9.25,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -8535,7 +8589,8 @@
     "total_infected": 5,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 3.7823539868301506,
+    "doubling_rate": 3.782,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -8693,7 +8748,8 @@
     "total_infected": 1041,
     "total_deaths": 7,
     "total_recovered": 10,
-    "doubling_rate": 6.814444655620182,
+    "doubling_rate": 6.814,
+    "mortality_rate": 0.672,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -8851,7 +8907,8 @@
     "total_infected": 33402,
     "total_deaths": 1997,
     "total_recovered": 5707,
-    "doubling_rate": 4.807154399028102,
+    "doubling_rate": 4.807,
+    "mortality_rate": 5.979,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -9009,7 +9066,8 @@
     "total_infected": 7,
     "total_deaths": 1,
     "total_recovered": 0,
-    "doubling_rate": 10.300213585530729,
+    "doubling_rate": 10.3,
+    "mortality_rate": 14.286,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -9167,7 +9225,8 @@
     "total_infected": 3,
     "total_deaths": 1,
     "total_recovered": 0,
-    "doubling_rate": 3.1546487678572874,
+    "doubling_rate": 3.155,
+    "mortality_rate": 33.333,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -9325,7 +9384,8 @@
     "total_infected": 83,
     "total_deaths": 0,
     "total_recovered": 14,
-    "doubling_rate": 8.062540427123105,
+    "doubling_rate": 8.063,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -9483,7 +9543,8 @@
     "total_infected": 50871,
     "total_deaths": 342,
     "total_recovered": 6658,
-    "doubling_rate": 4.843727174371331,
+    "doubling_rate": 4.844,
+    "mortality_rate": 0.672,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -9641,7 +9702,8 @@
     "total_infected": 137,
     "total_deaths": 4,
     "total_recovered": 2,
-    "doubling_rate": 1.9421472200238084,
+    "doubling_rate": 1.942,
+    "mortality_rate": 2.92,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -9799,7 +9861,8 @@
     "total_infected": 966,
     "total_deaths": 28,
     "total_recovered": 52,
-    "doubling_rate": 7.930501400256849,
+    "doubling_rate": 7.931,
+    "mortality_rate": 2.899,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -9957,7 +10020,8 @@
     "total_infected": 28,
     "total_deaths": 1,
     "total_recovered": 4,
-    "doubling_rate": 8.937710099666909,
+    "doubling_rate": 8.938,
+    "mortality_rate": 3.571,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -10116,6 +10180,7 @@
     "total_deaths": 0,
     "total_recovered": 0,
     "doubling_rate": 2.5,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -10273,7 +10338,8 @@
     "total_infected": 20,
     "total_deaths": 1,
     "total_recovered": 0,
-    "doubling_rate": -2.5960547816510373,
+    "doubling_rate": -2.596,
+    "mortality_rate": 5,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -10432,6 +10498,7 @@
     "total_deaths": 0,
     "total_recovered": 0,
     "doubling_rate": 2.5,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -10590,6 +10657,7 @@
     "total_deaths": 0,
     "total_recovered": 0,
     "doubling_rate": 2.5,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -10747,7 +10815,8 @@
     "total_infected": 68,
     "total_deaths": 1,
     "total_recovered": 0,
-    "doubling_rate": 3.604842570174067,
+    "doubling_rate": 3.605,
+    "mortality_rate": 1.471,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -10905,7 +10974,8 @@
     "total_infected": 300,
     "total_deaths": 10,
     "total_recovered": 34,
-    "doubling_rate": 4.182715435720358,
+    "doubling_rate": 4.183,
+    "mortality_rate": 3.333,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -11063,7 +11133,8 @@
     "total_infected": 890,
     "total_deaths": 5,
     "total_recovered": 97,
-    "doubling_rate": 7.7170687223554975,
+    "doubling_rate": 7.717,
+    "mortality_rate": 0.562,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -11221,7 +11292,8 @@
     "total_infected": 887,
     "total_deaths": 20,
     "total_recovered": 73,
-    "doubling_rate": 4.297623586790108,
+    "doubling_rate": 4.298,
+    "mortality_rate": 2.255,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -11379,7 +11451,8 @@
     "total_infected": 1046,
     "total_deaths": 87,
     "total_recovered": 46,
-    "doubling_rate": 4.8778461140572755,
+    "doubling_rate": 4.878,
+    "mortality_rate": 8.317,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -11537,7 +11610,8 @@
     "total_infected": 32332,
     "total_deaths": 2378,
     "total_recovered": 11133,
-    "doubling_rate": 8.62968244302276,
+    "doubling_rate": 8.63,
+    "mortality_rate": 7.355,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -11695,7 +11769,8 @@
     "total_infected": 458,
     "total_deaths": 40,
     "total_recovered": 122,
-    "doubling_rate": 5.128112330711919,
+    "doubling_rate": 5.128,
+    "mortality_rate": 8.734,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -11853,7 +11928,8 @@
     "total_infected": 2121,
     "total_deaths": 22,
     "total_recovered": 5,
-    "doubling_rate": 4.074442789920973,
+    "doubling_rate": 4.074,
+    "mortality_rate": 1.037,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -12011,7 +12087,8 @@
     "total_infected": 3035,
     "total_deaths": 12,
     "total_recovered": 79,
-    "doubling_rate": 2.8070787306989793,
+    "doubling_rate": 2.807,
+    "mortality_rate": 0.395,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -12169,7 +12246,8 @@
     "total_infected": 86498,
     "total_deaths": 9134,
     "total_recovered": 10950,
-    "doubling_rate": 9.114418959633035,
+    "doubling_rate": 9.114,
+    "mortality_rate": 10.56,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -12327,7 +12405,8 @@
     "total_infected": 26,
     "total_deaths": 1,
     "total_recovered": 2,
-    "doubling_rate": 11.049425735030457,
+    "doubling_rate": 11.049,
+    "mortality_rate": 3.846,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -12485,7 +12564,8 @@
     "total_infected": 1468,
     "total_deaths": 49,
     "total_recovered": 372,
-    "doubling_rate": 12.047104198266048,
+    "doubling_rate": 12.047,
+    "mortality_rate": 3.338,
     "date": {
       "infected": {
         "2020-01-22": 2,
@@ -12643,7 +12723,8 @@
     "total_infected": 235,
     "total_deaths": 1,
     "total_recovered": 18,
-    "doubling_rate": 4.676559665784701,
+    "doubling_rate": 4.677,
+    "mortality_rate": 0.426,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -12801,7 +12882,8 @@
     "total_infected": 150,
     "total_deaths": 3,
     "total_recovered": 3,
-    "doubling_rate": 3.7823539868301506,
+    "doubling_rate": 3.782,
+    "mortality_rate": 2,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -12959,7 +13041,8 @@
     "total_infected": 31,
     "total_deaths": 1,
     "total_recovered": 1,
-    "doubling_rate": 4.774155176894227,
+    "doubling_rate": 4.774,
+    "mortality_rate": 3.226,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -13117,7 +13200,8 @@
     "total_infected": 9332,
     "total_deaths": 139,
     "total_recovered": 4528,
-    "doubling_rate": 85.43128513272532,
+    "doubling_rate": 85.431,
+    "mortality_rate": 1.489,
     "date": {
       "infected": {
         "2020-01-22": 1,
@@ -13275,7 +13359,8 @@
     "total_infected": 225,
     "total_deaths": 0,
     "total_recovered": 57,
-    "doubling_rate": 19.290693578696413,
+    "doubling_rate": 19.291,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -13433,7 +13518,8 @@
     "total_infected": 58,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 2.4382797359611055,
+    "doubling_rate": 2.438,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -13591,7 +13677,8 @@
     "total_infected": 280,
     "total_deaths": 0,
     "total_recovered": 1,
-    "doubling_rate": 4.94881958390123,
+    "doubling_rate": 4.949,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -13749,7 +13836,8 @@
     "total_infected": 391,
     "total_deaths": 8,
     "total_recovered": 27,
-    "doubling_rate": 7.612337314178268,
+    "doubling_rate": 7.612,
+    "mortality_rate": 2.046,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -13908,6 +13996,7 @@
     "total_deaths": 0,
     "total_recovered": 0,
     "doubling_rate": null,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -14065,7 +14154,8 @@
     "total_infected": 56,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 8.362580672754333,
+    "doubling_rate": 8.363,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -14223,7 +14313,8 @@
     "total_infected": 358,
     "total_deaths": 5,
     "total_recovered": 1,
-    "doubling_rate": 3.776593523943556,
+    "doubling_rate": 3.777,
+    "mortality_rate": 1.397,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -14381,7 +14472,8 @@
     "total_infected": 1605,
     "total_deaths": 15,
     "total_recovered": 40,
-    "doubling_rate": 4.959763197985757,
+    "doubling_rate": 4.96,
+    "mortality_rate": 0.935,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -14539,7 +14631,8 @@
     "total_infected": 26,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 1.6048905676610021,
+    "doubling_rate": 1.605,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -14697,7 +14790,8 @@
     "total_infected": 2161,
     "total_deaths": 26,
     "total_recovered": 259,
-    "doubling_rate": 6.881893998868605,
+    "doubling_rate": 6.882,
+    "mortality_rate": 1.203,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -14855,7 +14949,8 @@
     "total_infected": 16,
     "total_deaths": 0,
     "total_recovered": 9,
-    "doubling_rate": 16.69113131077566,
+    "doubling_rate": 16.691,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -15013,7 +15108,8 @@
     "total_infected": 139,
     "total_deaths": 0,
     "total_recovered": 2,
-    "doubling_rate": 7.973362890408583,
+    "doubling_rate": 7.973,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -15171,7 +15267,8 @@
     "total_infected": 3,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 8.547556456757274,
+    "doubling_rate": 8.548,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -15329,7 +15426,8 @@
     "total_infected": 94,
     "total_deaths": 2,
     "total_recovered": 0,
-    "doubling_rate": 2.8616660398114737,
+    "doubling_rate": 2.862,
+    "mortality_rate": 2.128,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -15487,7 +15585,8 @@
     "total_infected": 585,
     "total_deaths": 8,
     "total_recovered": 4,
-    "doubling_rate": 4.095845200733671,
+    "doubling_rate": 4.096,
+    "mortality_rate": 1.368,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -15645,7 +15744,8 @@
     "total_infected": 199,
     "total_deaths": 2,
     "total_recovered": 2,
-    "doubling_rate": 4.620919329903548,
+    "doubling_rate": 4.621,
+    "mortality_rate": 1.005,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -15803,7 +15903,8 @@
     "total_infected": 42,
     "total_deaths": 0,
     "total_recovered": 1,
-    "doubling_rate": 5.755359467109338,
+    "doubling_rate": 5.755,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -15961,7 +16062,8 @@
     "total_infected": 11,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 36.36270448670857,
+    "doubling_rate": 36.363,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -16119,7 +16221,8 @@
     "total_infected": 82,
     "total_deaths": 1,
     "total_recovered": 0,
-    "doubling_rate": 2.5442255322620806,
+    "doubling_rate": 2.544,
+    "mortality_rate": 1.22,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -16277,7 +16380,8 @@
     "total_infected": 345,
     "total_deaths": 23,
     "total_recovered": 11,
-    "doubling_rate": 3.1546487678572874,
+    "doubling_rate": 3.155,
+    "mortality_rate": 6.667,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -16435,7 +16539,8 @@
     "total_infected": 8,
     "total_deaths": 0,
     "total_recovered": 2,
-    "doubling_rate": 3.5334752630571193,
+    "doubling_rate": 3.533,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -16594,6 +16699,7 @@
     "total_deaths": 0,
     "total_recovered": 1,
     "doubling_rate": 2.5,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -16751,7 +16857,8 @@
     "total_infected": 8647,
     "total_deaths": 547,
     "total_recovered": 6,
-    "doubling_rate": 4.826335571018421,
+    "doubling_rate": 4.826,
+    "mortality_rate": 6.326,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -16909,7 +17016,8 @@
     "total_infected": 368,
     "total_deaths": 0,
     "total_recovered": 37,
-    "doubling_rate": 2.7010432195843403,
+    "doubling_rate": 2.701,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -17068,6 +17176,7 @@
     "total_deaths": 1,
     "total_recovered": 0,
     "doubling_rate": null,
+    "mortality_rate": 50,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -17225,7 +17334,8 @@
     "total_infected": 10,
     "total_deaths": 1,
     "total_recovered": 0,
-    "doubling_rate": 2.1533827903669653,
+    "doubling_rate": 2.153,
+    "mortality_rate": 10,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -17383,7 +17493,8 @@
     "total_infected": 70,
     "total_deaths": 1,
     "total_recovered": 3,
-    "doubling_rate": 4.090339495506258,
+    "doubling_rate": 4.09,
+    "mortality_rate": 1.429,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -17541,7 +17652,8 @@
     "total_infected": 219,
     "total_deaths": 3,
     "total_recovered": 3,
-    "doubling_rate": 5.380411163947443,
+    "doubling_rate": 5.38,
+    "mortality_rate": 1.37,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -17699,7 +17811,8 @@
     "total_infected": 3755,
     "total_deaths": 19,
     "total_recovered": 6,
-    "doubling_rate": 7.635643680303974,
+    "doubling_rate": 7.636,
+    "mortality_rate": 0.506,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -17857,7 +17970,8 @@
     "total_infected": 131,
     "total_deaths": 0,
     "total_recovered": 23,
-    "doubling_rate": 3.9934083587226157,
+    "doubling_rate": 3.993,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -18015,7 +18129,8 @@
     "total_infected": 1373,
     "total_deaths": 11,
     "total_recovered": 23,
-    "doubling_rate": 6.073835478274868,
+    "doubling_rate": 6.074,
+    "mortality_rate": 0.801,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -18173,7 +18288,8 @@
     "total_infected": 674,
     "total_deaths": 9,
     "total_recovered": 2,
-    "doubling_rate": 4.518401911002271,
+    "doubling_rate": 4.518,
+    "mortality_rate": 1.335,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -18332,6 +18448,7 @@
     "total_deaths": 0,
     "total_recovered": 0,
     "doubling_rate": null,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -18489,7 +18606,8 @@
     "total_infected": 52,
     "total_deaths": 3,
     "total_recovered": 1,
-    "doubling_rate": 4.028982568283963,
+    "doubling_rate": 4.029,
+    "mortality_rate": 5.769,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -18647,7 +18765,8 @@
     "total_infected": 635,
     "total_deaths": 11,
     "total_recovered": 16,
-    "doubling_rate": 6.1974222804744405,
+    "doubling_rate": 6.197,
+    "mortality_rate": 1.732,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -18805,7 +18924,8 @@
     "total_infected": 803,
     "total_deaths": 54,
     "total_recovered": 31,
-    "doubling_rate": 4.632200633142998,
+    "doubling_rate": 4.632,
+    "mortality_rate": 6.725,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -18963,7 +19083,8 @@
     "total_infected": 1389,
     "total_deaths": 16,
     "total_recovered": 13,
-    "doubling_rate": 4.418944761310017,
+    "doubling_rate": 4.419,
+    "mortality_rate": 1.152,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -19121,7 +19242,8 @@
     "total_infected": 4268,
     "total_deaths": 76,
     "total_recovered": 43,
-    "doubling_rate": 3.532350004067566,
+    "doubling_rate": 3.532,
+    "mortality_rate": 1.781,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -19279,7 +19401,8 @@
     "total_infected": 562,
     "total_deaths": 0,
     "total_recovered": 43,
-    "doubling_rate": 26.873183334651088,
+    "doubling_rate": 26.873,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -19437,7 +19560,8 @@
     "total_infected": 1292,
     "total_deaths": 26,
     "total_recovered": 115,
-    "doubling_rate": 3.1702410437640642,
+    "doubling_rate": 3.17,
+    "mortality_rate": 2.012,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -19595,7 +19719,8 @@
     "total_infected": 1036,
     "total_deaths": 4,
     "total_recovered": 45,
-    "doubling_rate": 3.3396295707080736,
+    "doubling_rate": 3.34,
+    "mortality_rate": 0.386,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -19753,7 +19878,8 @@
     "total_infected": 54,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 3.317938125382711,
+    "doubling_rate": 3.318,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -19911,7 +20037,8 @@
     "total_infected": 3,
     "total_deaths": 0,
     "total_recovered": 1,
-    "doubling_rate": 8.547556456757274,
+    "doubling_rate": 8.548,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -20070,6 +20197,7 @@
     "total_deaths": 0,
     "total_recovered": 0,
     "doubling_rate": null,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -20227,7 +20355,8 @@
     "total_infected": 223,
     "total_deaths": 21,
     "total_recovered": 4,
-    "doubling_rate": 14.298428117581178,
+    "doubling_rate": 14.298,
+    "mortality_rate": 9.417,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -20385,7 +20514,8 @@
     "total_infected": 1104,
     "total_deaths": 3,
     "total_recovered": 35,
-    "doubling_rate": 4.499053047158765,
+    "doubling_rate": 4.499,
+    "mortality_rate": 0.272,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -20543,7 +20673,8 @@
     "total_infected": 119,
     "total_deaths": 0,
     "total_recovered": 11,
-    "doubling_rate": 6.033338494416759,
+    "doubling_rate": 6.033,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -20701,7 +20832,8 @@
     "total_infected": 457,
     "total_deaths": 4,
     "total_recovered": 15,
-    "doubling_rate": 4.8001482806142155,
+    "doubling_rate": 4.8,
+    "mortality_rate": 0.875,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -20860,6 +20992,7 @@
     "total_deaths": 0,
     "total_recovered": 0,
     "doubling_rate": null,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -21017,7 +21150,8 @@
     "total_infected": 732,
     "total_deaths": 2,
     "total_recovered": 183,
-    "doubling_rate": 7.28887302023683,
+    "doubling_rate": 7.289,
+    "mortality_rate": 0.273,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -21175,7 +21309,8 @@
     "total_infected": 269,
     "total_deaths": 1,
     "total_recovered": 7,
-    "doubling_rate": 9.257872257861834,
+    "doubling_rate": 9.258,
+    "mortality_rate": 0.372,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -21333,7 +21468,8 @@
     "total_infected": 632,
     "total_deaths": 9,
     "total_recovered": 10,
-    "doubling_rate": 8.192775473673297,
+    "doubling_rate": 8.193,
+    "mortality_rate": 1.424,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -21491,7 +21627,8 @@
     "total_infected": 3,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 3.1546487678572874,
+    "doubling_rate": 3.155,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -21649,7 +21786,8 @@
     "total_infected": 1170,
     "total_deaths": 1,
     "total_recovered": 31,
-    "doubling_rate": 2.3874773206459046,
+    "doubling_rate": 2.387,
+    "mortality_rate": 0.085,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -21807,7 +21945,8 @@
     "total_infected": 65719,
     "total_deaths": 5138,
     "total_recovered": 9357,
-    "doubling_rate": 4.195174267177034,
+    "doubling_rate": 4.195,
+    "mortality_rate": 7.818,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -21965,7 +22104,8 @@
     "total_infected": 106,
     "total_deaths": 0,
     "total_recovered": 7,
-    "doubling_rate": 13.500069999863499,
+    "doubling_rate": 13.5,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -22123,7 +22263,8 @@
     "total_infected": 3,
     "total_deaths": 1,
     "total_recovered": 0,
-    "doubling_rate": 8.547556456757274,
+    "doubling_rate": 8.548,
+    "mortality_rate": 33.333,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -22281,7 +22422,8 @@
     "total_infected": 8,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 7.373849236784743,
+    "doubling_rate": 7.374,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -22439,7 +22581,8 @@
     "total_infected": 3069,
     "total_deaths": 105,
     "total_recovered": 16,
-    "doubling_rate": 7.505469412055692,
+    "doubling_rate": 7.505,
+    "mortality_rate": 3.421,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -22597,7 +22740,8 @@
     "total_infected": 12928,
     "total_deaths": 231,
     "total_recovered": 1530,
-    "doubling_rate": 6.324737570956762,
+    "doubling_rate": 6.325,
+    "mortality_rate": 1.787,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -22755,7 +22899,8 @@
     "total_infected": 267,
     "total_deaths": 2,
     "total_recovered": 29,
-    "doubling_rate": 7.577864504475844,
+    "doubling_rate": 7.578,
+    "mortality_rate": 0.749,
     "date": {
       "infected": {
         "2020-01-22": 1,
@@ -22913,7 +23058,8 @@
     "total_infected": 13,
     "total_deaths": 0,
     "total_recovered": 1,
-    "doubling_rate": 43.29858401261412,
+    "doubling_rate": 43.299,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -23071,7 +23217,8 @@
     "total_infected": 1136,
     "total_deaths": 5,
     "total_recovered": 97,
-    "doubling_rate": 5.415153110024684,
+    "doubling_rate": 5.415,
+    "mortality_rate": 0.44,
     "date": {
       "infected": {
         "2020-01-22": 2,
@@ -23229,7 +23376,8 @@
     "total_infected": 25,
     "total_deaths": 1,
     "total_recovered": 1,
-    "doubling_rate": 7.765709298763475,
+    "doubling_rate": 7.766,
+    "mortality_rate": 4,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -23387,7 +23535,8 @@
     "total_infected": 66,
     "total_deaths": 2,
     "total_recovered": 1,
-    "doubling_rate": 12.483212277040533,
+    "doubling_rate": 12.483,
+    "mortality_rate": 3.03,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -23545,7 +23694,8 @@
     "total_infected": 227,
     "total_deaths": 6,
     "total_recovered": 2,
-    "doubling_rate": 3.129440290861289,
+    "doubling_rate": 3.129,
+    "mortality_rate": 2.643,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -23703,7 +23853,8 @@
     "total_infected": 5698,
     "total_deaths": 92,
     "total_recovered": 42,
-    "doubling_rate": 2.267803172711207,
+    "doubling_rate": 2.268,
+    "mortality_rate": 1.615,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -23861,7 +24012,8 @@
     "total_infected": 23,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 1.1053236472875188,
+    "doubling_rate": 1.105,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -24019,7 +24171,8 @@
     "total_infected": 310,
     "total_deaths": 5,
     "total_recovered": 5,
-    "doubling_rate": 2.3965874361931085,
+    "doubling_rate": 2.397,
+    "mortality_rate": 1.613,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -24177,7 +24330,8 @@
     "total_infected": 405,
     "total_deaths": 2,
     "total_recovered": 52,
-    "doubling_rate": 3.560263952214298,
+    "doubling_rate": 3.56,
+    "mortality_rate": 0.494,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -24335,7 +24489,8 @@
     "total_infected": 14745,
     "total_deaths": 761,
     "total_recovered": 151,
-    "doubling_rate": 3.6768841716947422,
+    "doubling_rate": 3.677,
+    "mortality_rate": 5.161,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -24493,7 +24648,8 @@
     "total_infected": 238,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 8.459707043717266,
+    "doubling_rate": 8.46,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -24651,7 +24807,8 @@
     "total_infected": 101657,
     "total_deaths": 1581,
     "total_recovered": 869,
-    "doubling_rate": 3.1033625150948674,
+    "doubling_rate": 3.103,
+    "mortality_rate": 1.555,
     "date": {
       "infected": {
         "2020-01-22": 1,
@@ -24809,7 +24966,8 @@
     "total_infected": 88,
     "total_deaths": 1,
     "total_recovered": 5,
-    "doubling_rate": 4.839489316329451,
+    "doubling_rate": 4.839,
+    "mortality_rate": 1.136,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -24967,7 +25125,8 @@
     "total_infected": 107,
     "total_deaths": 1,
     "total_recovered": 31,
-    "doubling_rate": 8.167479466085393,
+    "doubling_rate": 8.167,
+    "mortality_rate": 0.935,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -25125,7 +25284,8 @@
     "total_infected": 163,
     "total_deaths": 0,
     "total_recovered": 20,
-    "doubling_rate": 9.459857431286464,
+    "doubling_rate": 9.46,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -25283,7 +25443,8 @@
     "total_infected": 22,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 1.7394516325939073,
+    "doubling_rate": 1.739,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -25441,7 +25602,8 @@
     "total_infected": 5,
     "total_deaths": 1,
     "total_recovered": 0,
-    "doubling_rate": 6.7845772442836205,
+    "doubling_rate": 6.785,
+    "mortality_rate": 20,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -25599,7 +25761,8 @@
     "total_infected": 11,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 1.4453241315894396,
+    "doubling_rate": 1.445,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -25757,7 +25920,8 @@
     "total_infected": 7,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 1.781035935540111,
+    "doubling_rate": 1.781,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -25915,7 +26079,8 @@
     "total_infected": 7,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 1.781035935540111,
+    "doubling_rate": 1.781,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -26073,7 +26238,8 @@
     "total_infected": 5,
     "total_deaths": 0,
     "total_recovered": 0,
-    "doubling_rate": 2.1533827903669653,
+    "doubling_rate": 2.153,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -26232,6 +26398,7 @@
     "total_deaths": 0,
     "total_recovered": 0,
     "doubling_rate": null,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -26390,6 +26557,7 @@
     "total_deaths": 0,
     "total_recovered": 0,
     "doubling_rate": 0,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -26548,6 +26716,7 @@
     "total_deaths": 0,
     "total_recovered": 0,
     "doubling_rate": 0,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -26706,6 +26875,7 @@
     "total_deaths": 0,
     "total_recovered": 0,
     "doubling_rate": 0,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -26863,7 +27033,8 @@
     "total_infected": 91,
     "total_deaths": 1,
     "total_recovered": 17,
-    "doubling_rate": 6.193063129233335,
+    "doubling_rate": 6.193,
+    "mortality_rate": 1.099,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -27022,6 +27193,7 @@
     "total_deaths": 0,
     "total_recovered": 0,
     "doubling_rate": 0,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -27180,6 +27352,7 @@
     "total_deaths": 0,
     "total_recovered": 0,
     "doubling_rate": 0,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -27338,6 +27511,7 @@
     "total_deaths": 0,
     "total_recovered": 0,
     "doubling_rate": 0,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -27496,6 +27670,7 @@
     "total_deaths": 1,
     "total_recovered": 1,
     "doubling_rate": 0,
+    "mortality_rate": 1.163,
     "date": {
       "infected": {
         "2020-01-22": 0,
@@ -27654,6 +27829,7 @@
     "total_deaths": 0,
     "total_recovered": 0,
     "doubling_rate": 0,
+    "mortality_rate": 0,
     "date": {
       "infected": {
         "2020-01-22": 0,
