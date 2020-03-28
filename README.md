@@ -43,6 +43,6 @@ This is example using Javascript to fetch data
 fetch("http://tiny.cc/Covid-19")
   .then(response => response.json())
   .then(data => {
-    console.log(data["CHINA"]);
+    console.log(data["china"]);
 });
 ```
