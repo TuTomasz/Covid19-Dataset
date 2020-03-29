@@ -1,54 +1,11 @@
-const csv = require("csv-parser");
 const fs = require("fs");
+const csv = require("csv-parser");
 const path = require("path");
+const Schema = require("./schema");
 
-let INFECTED_DATA = [];
-let DEATH_DATA = [];
-let RECOVERED_DATA = [];
-let formated_data = {};
-
-fs.createReadStream("./Data/raw/Cases_raw.csv")
-  .pipe(csv("Province/States", "Country/Region"))
-  .on("data", data => INFECTED_DATA.push(data))
-  .on("end", () => {
-    // Create list of countries within the data
-    INFECTED_DATA.forEach(element => {
-      let country = element["Country/Region"]
-        .toLowerCase()
-        .replace(/[^a-zA-Z0-9]/g, "_");
-
-      formated_data[country] = {
-        total_infected: 0,
-        total_deaths: 0,
-        total_recovered: 0,
-        doubling_rate: 0,
-        mortality_rate: 0,
-        date: { infected: null }
-      };
-    });
-    formated_data = formatData(INFECTED_DATA, formated_data, "infected");
-  });
-// Read and merge Death data with new format
-fs.createReadStream("./Data/raw/Death_raw.csv")
-  .pipe(csv("Province/States", "Country/Region"))
-  .on("data", data => DEATH_DATA.push(data))
-  .on("end", () => {
-    formated_data = formatData(DEATH_DATA, formated_data, "deaths");
-  });
-// Read and merge Recovered data with new format
-fs.createReadStream("./Data/raw/Recovered_raw.csv")
-  .pipe(csv("Province/States", "Country/Region"))
-  .on("data", data => RECOVERED_DATA.push(data))
-  .on("end", () => {
-    formated_data = formatData(RECOVERED_DATA, formated_data, "recovered");
-
-    formated_data = getTotals(formated_data);
-    formated_data = getDoublingTime(formated_data, 5, "doubling_rate");
-    formated_data = getMortalityRate(formated_data);
-
-    saveToFile(formated_data);
-  });
-
+/**
+ * Save processed data to a JSON file
+ */
 saveToFile = data => {
   fs.writeFile(
     path.join(__dirname, "Data", "formated", "data_v1.json"),
@@ -140,3 +97,55 @@ formatData = (unformated_data, formated_data, type) => {
   });
   return formated_data;
 };
+/**
+ * Read and parse the csv file data
+ * @param  {} source - path to CSV file
+ */
+async function readDataFromSource(source) {
+  chunks = [];
+  return new Promise((resolve, reject) => {
+    fs.createReadStream(source)
+      .pipe(csv("Province/States", "Country/Region"))
+      .on("data", data => chunks.push(data))
+      .on("end", () => {
+        resolve(chunks);
+      });
+  });
+}
+/**
+ * Create Json file Blueprint based on schema object
+ */
+async function createBlueprint(raw, formated) {
+  raw.forEach(element => {
+    let country = element["Country/Region"]
+      .toLowerCase()
+      .replace(/[^a-zA-Z0-9]/g, "_");
+    formated[country] = new Schema();
+  });
+  return formated;
+}
+
+main = async () => {
+  let INFECTED_DATA = [];
+  let DEATH_DATA = [];
+  let RECOVERED_DATA = [];
+  let formated_data = {};
+
+  INFECTED_DATA = await readDataFromSource("./Data/raw/Cases_raw.csv");
+  DEATH_DATA = await readDataFromSource("./Data/raw/Death_raw.csv");
+  RECOVERED_DATA = await readDataFromSource("./Data/raw/Recovered_raw.csv");
+
+  formated_data = await createBlueprint(INFECTED_DATA, formated_data);
+
+  formated_data = formatData(INFECTED_DATA, formated_data, "infected");
+  formated_data = formatData(DEATH_DATA, formated_data, "deaths");
+  formated_data = formatData(RECOVERED_DATA, formated_data, "recovered");
+
+  formated_data = getTotals(formated_data);
+  formated_data = getDoublingTime(formated_data, 5, "doubling_rate");
+  formated_data = getMortalityRate(formated_data);
+
+  saveToFile(formated_data);
+};
+
+main();
