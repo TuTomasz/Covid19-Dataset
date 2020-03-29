@@ -1,4 +1,4 @@
-# COVID-19 API
+# COVID-19 Dataset
 
 ## **Build**
 
