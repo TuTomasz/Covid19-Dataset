@@ -4,12 +4,17 @@
   "description": "data API",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node fetch.js && node format.js",
+    "purge-json": "rm -r ./Data/formated/data_v1.json" ,
+    "purge-csv": "rm -r ./Data/raw/Cases_raw.csv && rm -r ./Data/raw/Death_raw.csv && rm -r ./Data/raw/Recovered_raw.csv",
+    "purge-all": " npm run purge-json && npm run purge-csv"
   },
   "keywords": [
     "coronavirus",
     "covid-19",
-    "API"
+    "API",
+    "Dataset"
   ],
   "author": "Tomaszito",
   "license": "ISC",
