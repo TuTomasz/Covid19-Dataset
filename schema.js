@@ -1,7 +1,7 @@
 /**
  * Blueprint for the JSON objects
  */
-class Schema {
+class CountrySchema {
   constructor() {
     this.total_infected = 0;
     this.total_infected = 0;
@@ -9,8 +9,22 @@ class Schema {
     this.total_recovered = 0;
     this.doubling_rate = 0;
     this.mortality_rate = 0;
-    this.date = { infected: null };
+    this.time_data = { infected: null };
   }
 }
 
-module.exports = Schema;
+class GlobalShema {
+  constructor() {
+    this.total_infected = 0;
+    this.total_deaths = 0;
+    this.total_recovered = 0;
+    this.doubling_rate = 0;
+    this.mortality_rate = 0;
+    this.time_data = {};
+  }
+}
+
+module.exports = {
+  CountrySchema,
+  GlobalShema
+};
