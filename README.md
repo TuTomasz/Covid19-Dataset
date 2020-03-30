@@ -47,7 +47,7 @@ The data ***auto-updates*** at specified intervals to ensure its always up to da
     "total_recovered": 869,
     "doubling_rate": 3.103,
     "mortality_rate": 1.555,
-    "date": {
+    "time_data": {
       "infected": {
         "2020-01-22": 1,
         ...
