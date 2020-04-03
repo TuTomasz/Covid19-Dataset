@@ -25,9 +25,9 @@ jobs:
     - name: Get fresh CSV Data
       run: node fetch.js
     - name: Remove old Data
-      run:  rm -r Data/formated/data_v1.json 
+      run:  rm -r Data/DataSets/global_data_v2.json 
     - name: Format data to JSON format 
-      run: node format.js
+      run: node formatGlobal.js
     - name: Commit files
       run: |
         git config --local user.email "action@github.com"

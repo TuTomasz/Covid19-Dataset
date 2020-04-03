@@ -1,3 +1,5 @@
+// Depricated
+
 const fs = require("fs");
 const csv = require("csv-parser");
 const path = require("path");
@@ -179,6 +181,28 @@ getDailyTotals = (countryData, globalData) => {
   return globalData;
 };
 
+getGlobalPercentInfected = data => {
+  let population = data["total_population"];
+  let infected = data["total_infected"];
+
+  data["percent_infected"] = parseFloat(
+    ((infected * 100) / population).toFixed(3)
+  );
+
+  return data;
+};
+
+getGlobalPercentRecovered = data => {
+  let population = data["total_population"];
+  let recovered = data["total_recovered"];
+
+  data["percent_recovered"] = parseFloat(
+    ((recovered * 100) / population).toFixed(3)
+  );
+
+  return data;
+};
+
 getGlobalDoublingTime = (data, period) => {
   infected = [];
   Object.entries(data["time_data"]).forEach(([key, value]) => {
@@ -235,6 +259,8 @@ main = async () => {
 
   formated_data_global = getGlobalTotals(formated_data, formated_data_global);
   formated_data_global = getDailyTotals(formated_data, formated_data_global);
+  formated_data_global = getGlobalPercentInfected(formated_data_global);
+  formated_data_global = getGlobalPercentRecovered(formated_data_global);
   formated_data_global = getGlobalDoublingTime(formated_data_global, 5);
   formated_data_global = getGlobalMortalityRate(formated_data_global);
   console.log(formated_data_global);

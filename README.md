@@ -19,26 +19,45 @@ The data ***auto-updates*** at specified intervals to ensure its always up to da
 ```YML
 
 {
-  "total_infected": 720129,
-  "total_deaths": 33931,
-  "total_recovered": 149145,
-  "doubling_rate": 6.373,
-  "mortality_rate": 4.712,
-  "time_data": {
-    "2020-01-22": { 
-      "infected": 555, 
-      "deaths": 17, 
-      "recovered": 28 
-      },
-    ...
-    "2020-03-29": { 
-      "infected": 720117, 
-      "deaths": 33925, 
-      "recovered": 149082 
-      }
-  }
+  {
+	"2020-01-22": {
+		"date": "2020-01-22",
+		"total_infected": 555,
+		"total_deaths": 17,
+		"total_recovered": 28,
+		"percent_infected": 0,
+		"percent_recovered": 0,
+		"percent_deaths": 0,
+		"doubling_rate": null,
+		"mortality_rate": 3.063
+	},
+		...
+	{
+		"2020-04-01": {
+		"date": "2020-04-01",
+		"total_infected": 932605,
+		"total_deaths": 46809,
+		"total_recovered": 193177,
+		"percent_infected": 0.012,
+		"percent_recovered": 0.002,
+		"percent_deaths": 0.001,
+		"doubling_rate": 10.055,
+		"mortality_rate": 5.019
+	}
 }
 ```
+## **Statistics**
+-	***date*** - day of intrest
+- ***total_infected*** - number of infections globaly
+- ***total_deaths*** - number of deaths globaly
+- ***total_recoveries*** - number of recoveries globaly
+-	***percent_infected*** - percent of people infected based on global population
+- ***percent_recovered*** - percent of people recovered based on global population
+- ***percent_deaths*** - percent of deaths based on global population
+- ***doubling_rate*** - dubling rate in days (5 day rolling period)
+- ***mortality_rate*** - current mortality rate of the country of interest
+
+
 ### ***Country Daily Data***
 ```YML
 "us": {

@@ -5,8 +5,8 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node fetch.js && node format.js",
-    "purge-json": "rm -r ./Data/formated/data_v1.json && rm -r ./Data/formated/global_data_v1.json" ,
+    "start": "node fetch.js && node formatGlobal.js",
+    "purge-json": "rm -r ./Data/data_sets/global_data_v2.json",
     "purge-csv": "rm -r ./Data/raw/Cases_raw.csv && rm -r ./Data/raw/Death_raw.csv && rm -r ./Data/raw/Recovered_raw.csv",
     "purge-all": " npm run purge-json && npm run purge-csv"
   },
