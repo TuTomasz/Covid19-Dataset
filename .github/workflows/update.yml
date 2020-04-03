@@ -3,7 +3,7 @@ name: Covid19 API update action
 on:
   schedule:
 
-    - cron:  '*/15 * * * *'
+    - cron:  '*/55 * * * *'
 jobs:
   build:
 
