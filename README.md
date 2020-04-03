@@ -72,7 +72,7 @@ This is example using Javascript to fetch data
 fetch("http://tiny.cc/Covid-19-global")
   .then(response => response.json())
   .then(data => {
-    console.log(data["us"]);
+    console.log(data);
   });
 ```
 
@@ -87,7 +87,7 @@ http = urllib3.PoolManager()
 response = http.request('GET', "http://tiny.cc/Covid-19-global")
 data = json.loads(response.data)
 
-print(data['us'])
+print(data)
 
 ```
 
