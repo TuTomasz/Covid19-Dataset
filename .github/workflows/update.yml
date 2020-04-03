@@ -25,7 +25,7 @@ jobs:
     - name: Get fresh CSV Data
       run: node fetch.js
     - name: Remove old Data
-      run:  rm -r Data/DataSets/global_data_v2.json 
+      run:  rm -r Data/data_sets/global_data_v2.json 
     - name: Format data to JSON format 
       run: node formatGlobal.js
     - name: Commit files

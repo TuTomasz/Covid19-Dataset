@@ -3,22 +3,19 @@
 ## **Build**
 
 ![Covid19 API update action](https://github.com/TuTomasz/Covid19-API/workflows/Covid19%20API%20update%20action/badge.svg)
+
 ## **Description**
 
 This project converts csv format data from the 2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE to JSON data shown below with aditional fields and statistics coming soon.
 
-The data ***auto-updates*** at specified intervals to ensure its always up to date with the original source.
+The data **_auto-updates_** at specified intervals to ensure its always up to date with the original source.
 
 ## **Data Format - JSON**
 
-
-
-
-### ***Global Daily Data***
+### **_Global Daily Data_**
 
 ```YML
-
-{
+"global":{
   {
 	"2020-01-22": {
 		"date": "2020-01-22",
@@ -46,19 +43,21 @@ The data ***auto-updates*** at specified intervals to ensure its always up to da
 	}
 }
 ```
+
 ## **Statistics**
--	***date*** - day of intrest
-- ***total_infected*** - number of infections globaly
-- ***total_deaths*** - number of deaths globaly
-- ***total_recoveries*** - number of recoveries globaly
--	***percent_infected*** - percent of people infected based on global population
-- ***percent_recovered*** - percent of people recovered based on global population
-- ***percent_deaths*** - percent of deaths based on global population
-- ***doubling_rate*** - dubling rate in days (5 day rolling period)
-- ***mortality_rate*** - current mortality rate of the country of interest
 
+- **_date_** - day of intrest
+- **_total_infected_** - number of infections globaly
+- **_total_deaths_** - number of deaths globaly
+- **_total_recoveries_** - number of recoveries globaly
+- **_percent_infected_** - percent of people infected based on global population
+- **_percent_recovered_** - percent of people recovered based on global population
+- **_percent_deaths_** - percent of deaths based on global population
+- **_doubling_rate_** - dubling rate in days (5 day rolling period)
+- **_mortality_rate_** - current mortality rate of the country of interest
 
-### ***Country Daily Data***
+### **_Country Daily Data_**
+
 ```YML
 "us": {
     "total_infected": 101657,
@@ -85,22 +84,21 @@ The data ***auto-updates*** at specified intervals to ensure its always up to da
     }
   },
 ```
+
 ## **Statistics**
 
-
-- ***total_infected*** - number of infections in the country of interest
-- ***total_deaths*** - number of deaths in the country of interest
-- ***total_recoveries*** - number of recoveries in the country of interest
-- ***doubling_rate*** - dubling rate in days
-- ***mortality_rate*** - current mortality rate of the country of interest
+- **_total_infected_** - number of infections in the country of interest
+- **_total_deaths_** - number of deaths in the country of interest
+- **_total_recoveries_** - number of recoveries in the country of interest
+- **_doubling_rate_** - dubling rate in days
+- **_mortality_rate_** - current mortality rate of the country of interest
 
 ## **Url's**
 
-- http://tiny.cc/Covid-19  -country dataset
-- http://tiny.cc/Covid-19-global  -global dataset
+- http://tiny.cc/Covid-19 -country dataset
+- http://tiny.cc/Covid-19-global -global dataset
 
 ## **Usage Example**
-
 
 This is example using Javascript to fetch data
 
@@ -109,9 +107,11 @@ fetch("http://tiny.cc/Covid-19")
   .then(response => response.json())
   .then(data => {
     console.log(data["us"]);
-});
+  });
 ```
+
 This is example using Python to fetch data
+
 ```python
 
 import json
@@ -125,6 +125,6 @@ print(data['us'])
 
 ```
 
-
 ## Add your project below if you find this dataset helpfull([ Add Here](https://github.com/TuTomasz/Covid19-API/edit/master/README.md))
-***
+
+---
