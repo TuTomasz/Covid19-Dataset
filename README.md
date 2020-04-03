@@ -15,8 +15,8 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
 ### **_Global Daily Data_**
 
 ```YML
-"global":{
-  {
+
+{
 	"2020-01-22": {
 		"date": "2020-01-22",
 		"total_infected": 555,
@@ -28,8 +28,8 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
 		"doubling_rate": null,
 		"mortality_rate": 3.063
 	},
-		...
-	{
+    ...
+
 		"2020-04-01": {
 		"date": "2020-04-01",
 		"total_infected": 932605,
