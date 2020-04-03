@@ -7,7 +7,7 @@ readFileData = source => {
 };
 writeFileData = (data, date) => {
   jsonString = JSON.stringify(data);
-  fs.writeFileSync(`./Data/archive/${date}.json`, jsonString);
+  fs.writeFileSync(`./Data/archive/${date}-global.json`, jsonString);
 };
 
 // Save Daily Global Statistics
