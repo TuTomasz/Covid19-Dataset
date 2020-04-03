@@ -13,7 +13,7 @@ writeFileData = (data, date) => {
 // Save Daily Global Statistics
 daily_global_output = {};
 
-let global_data = readFileData("./Data/DataSets/global_data_v2.json");
+let global_data = readFileData("./Data/data_sets/global_data_v2.json");
 let date = new Date().toJSON().split("T")[0];
 writeFileData(global_data, date);
 
