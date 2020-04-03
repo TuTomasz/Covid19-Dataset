@@ -1,5 +1,5 @@
 
-name: Archive data
+name: Archive Data
 on:
   schedule:
 

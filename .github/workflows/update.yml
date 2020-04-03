@@ -1,5 +1,5 @@
 
-name: Covid19 API update action
+name: Update Data
 on:
   schedule:
 
