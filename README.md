@@ -57,44 +57,11 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
 
 ### **_Country Daily Data_**
 
-```YML
-"us": {
-    "total_infected": 101657,
-    "total_deaths": 1581,
-    "total_recovered": 869,
-    "doubling_rate": 3.103,
-    "mortality_rate": 1.555,
-    "time_data": {
-      "infected": {
-        "2020-01-22": 1,
-        ...
-        "2020-03-27": 101657
-      },
-      "deaths": {
-        "2020-01-22": 0,
-        ...
-        "2020-03-27": 1581
-      },
-      "recovered": {
-        "2020-01-22": 0,
-        ...
-        "2020-03-27": 869
-      }
-    }
-  },
-```
+updating will be back soon
 
-## **Statistics**
-
-- **_total_infected_** - number of infections in the country of interest
-- **_total_deaths_** - number of deaths in the country of interest
-- **_total_recoveries_** - number of recoveries in the country of interest
-- **_doubling_rate_** - dubling rate in days
-- **_mortality_rate_** - current mortality rate of the country of interest
 
 ## **Url's**
 
-- http://tiny.cc/Covid-19 -country dataset
 - http://tiny.cc/Covid-19-global -global dataset
 
 ## **Usage Example**
@@ -102,7 +69,7 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
 This is example using Javascript to fetch data
 
 ```javascript
-fetch("http://tiny.cc/Covid-19")
+fetch("http://tiny.cc/Covid-19-global")
   .then(response => response.json())
   .then(data => {
     console.log(data["us"]);
@@ -117,7 +84,7 @@ import json
 import urllib3
 
 http = urllib3.PoolManager()
-response = http.request('GET', "http://tiny.cc/Covid-19")
+response = http.request('GET', "http://tiny.cc/Covid-19-global")
 data = json.loads(response.data)
 
 print(data['us'])
