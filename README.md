@@ -2,8 +2,7 @@
 
 ## **Build**
 
-![Covid19 API update action](https://github.com/TuTomasz/Covid19-API/workflows/Covid19%20API%20update%20action/badge.svg)
-
+![Update Data](https://github.com/TuTomasz/Covid19-Dataset/workflows/Update%20Data/badge.svg)
 ## **Description**
 
 This project converts csv format data from the 2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE to JSON data shown below with aditional fields and statistics coming soon.

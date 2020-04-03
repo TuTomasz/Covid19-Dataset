@@ -3,7 +3,7 @@ name: Archive Data
 on:
   schedule:
 
-    - cron:  '* 15 * * *'
+    - cron:  '* 22 * * *'
 jobs:
   build:
 
