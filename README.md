@@ -15,32 +15,31 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
 ### **_Global Daily Data_**
 
 ```YML
-
 {
-	"2020-01-22": {
-		"date": "2020-01-22",
-		"total_infected": 555,
-		"total_deaths": 17,
-		"total_recovered": 28,
-		"percent_infected": 0,
-		"percent_recovered": 0,
-		"percent_deaths": 0,
-		"doubling_rate": null,
-		"mortality_rate": 3.063
-	},
-    ...
-
-		"2020-04-01": {
-		"date": "2020-04-01",
-		"total_infected": 932605,
-		"total_deaths": 46809,
-		"total_recovered": 193177,
-		"percent_infected": 0.012,
-		"percent_recovered": 0.002,
-		"percent_deaths": 0.001,
-		"doubling_rate": 10.055,
-		"mortality_rate": 5.019
-	}
+  "2020-01-22": {
+    "date": "2020-01-22",
+    "total_infected": 555,
+    "total_deaths": 17,
+    "total_recovered": 28,
+    "percent_infected": 0,
+    "percent_recovered": 0,
+    "percent_deaths": 0,
+    "doubling_rate": null,
+    "mortality_rate": 3.063
+  },
+  ...
+  },
+  "2020-04-02": {
+    "date": "2020-04-02",
+    "total_infected": 1013157,
+    "total_deaths": 52983,
+    "total_recovered": 210263,
+    "percent_infected": 0.013,
+    "percent_recovered": 0.003,
+    "percent_deaths": 0.001,
+    "doubling_rate": 10.151,
+    "mortality_rate": 5.229
+  }
 }
 ```
 
