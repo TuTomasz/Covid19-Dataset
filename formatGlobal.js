@@ -65,13 +65,11 @@ async function createBlueprint(raw, formated) {
  * @param type - designates the type of unstructured data set
  */
 formatData = (uncountryData, countryData, type) => {
-  // Create list of countries within the data
   uncountryData.forEach(element => {
     let country = element["Country/Region"]
       .toLowerCase()
       .replace(/[^a-zA-Z0-9]/g, "_");
 
-    //console.log(country)
     let timedata = countryData[country]["time_data"];
 
     Object.entries(element).forEach(([key, value]) => {
@@ -91,7 +89,12 @@ formatData = (uncountryData, countryData, type) => {
   });
   return countryData;
 };
-function getGlobalBlueprint(globalData, countryData) {
+/**
+ * Create Global Json data blueprint
+ * @param  {} globalData
+ * @param  {} countryData
+ */
+function createGlobalBlueprint(globalData, countryData) {
   globalData = new GlobalTemp();
   countryData = Object.keys(countryData["us"]["time_data"]["infected"]);
   countryData.forEach(date => {
@@ -103,6 +106,11 @@ function getGlobalBlueprint(globalData, countryData) {
   });
   return globalData;
 }
+/**
+ * Get Global daily totals by country
+ * @param  {} countryData
+ * @param  {} globalData
+ */
 getGlobalTotals = (countryData, globalData) => {
   let globalInfected = 0;
   let globalDeaths = 0;
@@ -120,10 +128,13 @@ getGlobalTotals = (countryData, globalData) => {
 
   return globalData;
 };
-
+/**
+ * Get Global daily totals from country data
+ * @param  {} countryData
+ * @param  {} globalData
+ */
 getDailyTotals = (countryData, globalData) => {
   dates = Object.keys(globalData["time_data"]);
-
   labels = ["infected", "deaths", "recovered"];
   labels.forEach(label => {
     sum = 0;
@@ -138,15 +149,15 @@ getDailyTotals = (countryData, globalData) => {
 
   return globalData;
 };
-
+/**
+ * Create JSON formated Global data using the Global schema class
+ */
 formatGlobalData = data => {
   output = {};
   Object.entries(data["time_data"]).forEach(([date, value]) => {
-    //console.log(key, value)
     let infected = value["infected"];
     let deaths = value["deaths"];
     let recovered = value["recovered"];
-
     output[date] = new Global(infected, deaths, recovered, date);
   });
   return output;
@@ -159,23 +170,23 @@ main = async () => {
   let countryData = {};
   let globalData = {};
 
-  // Country Data
-
   INFECTED_DATA = await readDataFromSource("./Data/raw/Cases_raw.csv");
   DEATH_DATA = await readDataFromSource("./Data/raw/Death_raw.csv");
   RECOVERED_DATA = await readDataFromSource("./Data/raw/Recovered_raw.csv");
   countryData = await createBlueprint(INFECTED_DATA, countryData);
 
+  // format country based data
   countryData = formatData(INFECTED_DATA, countryData, "infected");
   countryData = formatData(DEATH_DATA, countryData, "deaths");
   countryData = formatData(RECOVERED_DATA, countryData, "recovered");
 
-  globalData = getGlobalBlueprint(globalData, countryData);
+  // get global data from country data
+  globalData = createGlobalBlueprint(globalData, countryData);
   globalData = getGlobalTotals(countryData, globalData);
   globalData = getDailyTotals(countryData, globalData);
-
   globalData = formatGlobalData(globalData);
 
+  // save global data to output file
   saveToFile(globalData, "global_data_v2.json");
 };
 
