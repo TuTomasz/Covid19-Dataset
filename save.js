@@ -14,19 +14,10 @@ writeFileData = (data, date) => {
 daily_global_output = {};
 
 let global_data = readFileData("./Data/data_sets/global_data_v2.json");
-let date = new Date().toJSON().split("T")[0];
-writeFileData(global_data, date);
+let date = new Date();
+date.setDate(date.getDate() - 1);
+date = date.toJSON().split("T")[0];
 
-// Save Daily Country Statistics
-
-// daily_country_output ={}
-
-// let country_data = readFileData('./Data/formated/data_v1.json')
-
-// Object.entries(country_data).forEach(([country,stats])=>{
-// 	delete country_data[country]['time_data']
-// })
-// daily_country_output[date] = country_data
-// appendFileData('./Data/country/country_stats.json',daily_country_output)
+writeFileData(global_data[date], date);
 
 console.log("Save complete");
