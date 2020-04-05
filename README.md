@@ -15,29 +15,33 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
 
 ```YML
 {
-  "2020-01-22": {
-    "date": "2020-01-22",
-    "total_infected": 555,
-    "total_deaths": 17,
-    "total_recovered": 28,
+  "2020-01-28": {
+    "date": "2020-01-28",
+    "total_infected": 5578,
+    "total_recovered": 107,
+    "total_deaths": 131,
+    "new_deaths": 49,
+    "deaths_per_hour": 2,
     "percent_infected": 0,
     "percent_recovered": 0,
     "percent_deaths": 0,
-    "doubling_rate": null,
-    "mortality_rate": 3.063
+    "doubling_rate": 1.947,
+    "mortality_rate": 2.349
   },
   ...
   },
-  "2020-04-02": {
-    "date": "2020-04-02",
-    "total_infected": 1013157,
-    "total_deaths": 52983,
-    "total_recovered": 210263,
-    "percent_infected": 0.013,
+  "2020-04-04": {
+    "date": "2020-04-04",
+    "total_infected": 1197405,
+    "total_recovered": 246152,
+    "total_deaths": 64606,
+    "new_deaths": 5819,
+    "deaths_per_hour": 242,
+    "percent_infected": 0.015,
     "percent_recovered": 0.003,
     "percent_deaths": 0.001,
-    "doubling_rate": 10.151,
-    "mortality_rate": 5.229
+    "doubling_rate": 10.379,
+    "mortality_rate": 5.396
   }
 }
 ```
@@ -46,8 +50,10 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
 
 - **_date_** - day of intrest
 - **_total_infected_** - number of infections globaly
-- **_total_deaths_** - number of deaths globaly
 - **_total_recoveries_** - number of recoveries globaly
+- **_total_deaths_** - number of deaths globaly
+- **_new_deaths_** - number of deaths since previous day
+- **_deaths_per_hour_** - number of deaths per hour 
 - **_percent_infected_** - percent of people infected based on global population
 - **_percent_recovered_** - percent of people recovered based on global population
 - **_percent_deaths_** - percent of deaths based on global population
