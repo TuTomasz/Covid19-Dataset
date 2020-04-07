@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node fetch.js && node formatGlobal.js && npm run archive",
-    "archive":"node save.js",
-    "purge-archive":"rm -rf ./Data/archive/* ",
+    "archive": "node save.js",
+    "purge-archive": "rm -rf ./Data/archive/* ",
     "purge-json": "rm -r ./Data/data_sets/*",
     "purge-csv": "rm -r ./Data/raw/*",
     "purge-all": " npm run purge-json; npm run purge-csv; npm run purge-archive"
