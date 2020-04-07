@@ -1,1 +1,1 @@
-{"date":"2020-04-04","total_infected":1197405,"total_deaths":64606,"total_recovered":246152,"percent_infected":0.015,"percent_recovered":0.003,"percent_deaths":0.001,"doubling_rate":10.379,"mortality_rate":5.396}
+{"date":"2020-04-04","total_infected":1197405,"total_recovered":246152,"total_deaths":64606,"new_deaths":5819,"deaths_per_hour":242,"percent_infected":0.015,"percent_recovered":0.003,"percent_deaths":0.001,"doubling_rate":10.379,"mortality_rate":5.396}
