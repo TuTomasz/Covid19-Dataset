@@ -94,5 +94,5 @@ Global.daily_infection_totals = [];
 Global.daily_death_totals = [];
 
 module.exports = {
-  Global
+  Global,
 };

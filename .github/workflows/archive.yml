@@ -1,12 +1,9 @@
-
 name: Archive Data
 on:
   schedule:
-
-    - cron:  '* 22 * * *'
+    - cron: "* 22 * * *"
 jobs:
   build:
-
     runs-on: macos-latest
 
     strategy:
@@ -14,27 +11,25 @@ jobs:
         node-version: [10.x]
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-        
-    - name: Install Modules
-      run: npm install
-    - name: check if directory exists
-      run: mkdir ./Data/archive || echo "already exists"
-    - name: Saved Data to archive
-      run: node save.js
-    - name: Commit files
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add Data/
-        git diff-index --quiet HEAD || git commit -m "Save data to archive" -a
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        
-        
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install Modules
+        run: npm install
+      - name: check if directory exists
+        run: mkdir ./Data/archive || echo "already exists"
+      - name: Saved Data to archive
+        run: node save.js
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add Data/
+          git diff-index --quiet HEAD || git commit -m "Save data to archive" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

@@ -3,6 +3,7 @@
 ## **Build**
 
 ![Update Data](https://github.com/TuTomasz/Covid19-Dataset/workflows/Update%20Data/badge.svg)![Archive Data](https://github.com/TuTomasz/Covid19-Dataset/workflows/Archive%20Data/badge.svg)
+
 ## **Description**
 
 This project converts csv format data from the 2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE to JSON data shown below with aditional fields and statistics coming soon.
@@ -53,7 +54,7 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
 - **_total_recoveries_** - number of recoveries globaly
 - **_total_deaths_** - number of deaths globaly
 - **_new_deaths_** - number of deaths since previous day
-- **_deaths_per_hour_** - number of deaths per hour 
+- **_deaths_per_hour_** - number of deaths per hour
 - **_percent_infected_** - percent of people infected based on global population
 - **_percent_recovered_** - percent of people recovered based on global population
 - **_percent_deaths_** - percent of deaths based on global population
@@ -63,7 +64,6 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
 ### **_Country Daily Data_**
 
 updating will be back soon
-
 
 ## **Url's**
 
@@ -75,8 +75,8 @@ This is example using Javascript to fetch data
 
 ```javascript
 fetch("http://tiny.cc/Covid-19-global")
-  .then(response => response.json())
-  .then(data => {
+  .then((response) => response.json())
+  .then((data) => {
     console.log(data);
   });
 ```

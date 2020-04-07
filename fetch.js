@@ -7,13 +7,13 @@ dataSets = {
   Death_raw:
     "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv",
   Recovered_raw:
-    "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv"
+    "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv",
 };
 /**
  * Get data in original CSV format from
  * 2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE
  */
-getdata = async dataSets => {
+getdata = async (dataSets) => {
   Object.entries(dataSets).forEach(async ([key, value]) => {
     console.log(key, value);
     let data = await fetch(value);

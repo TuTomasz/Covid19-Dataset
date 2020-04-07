@@ -26,7 +26,7 @@ async function readDataFromSource(source) {
   return new Promise((resolve, reject) => {
     fs.createReadStream(source)
       .pipe(csv("Province/States", "Country/Region"))
-      .on("data", data => chunks.push(data))
+      .on("data", (data) => chunks.push(data))
       .on("end", () => {
         resolve(chunks);
       });
@@ -40,7 +40,7 @@ saveToFile = (data, fileName) => {
   fs.writeFile(
     path.join(__dirname, "Data", "data_sets", fileName),
     JSON.stringify(data),
-    function(err) {
+    function (err) {
       if (err) console.log(err);
     }
   );
@@ -49,7 +49,7 @@ saveToFile = (data, fileName) => {
  * Create Json file Blueprint based on schema object
  */
 async function createBlueprint(raw, formated) {
-  raw.forEach(element => {
+  raw.forEach((element) => {
     let country = element["Country/Region"]
       .toLowerCase()
       .replace(/[^a-zA-Z0-9]/g, "_");
@@ -65,7 +65,7 @@ async function createBlueprint(raw, formated) {
  * @param type - designates the type of unstructured data set
  */
 formatData = (uncountryData, countryData, type) => {
-  uncountryData.forEach(element => {
+  uncountryData.forEach((element) => {
     let country = element["Country/Region"]
       .toLowerCase()
       .replace(/[^a-zA-Z0-9]/g, "_");
@@ -97,11 +97,11 @@ formatData = (uncountryData, countryData, type) => {
 function createGlobalBlueprint(globalData, countryData) {
   globalData = new GlobalTemp();
   countryData = Object.keys(countryData["us"]["time_data"]["infected"]);
-  countryData.forEach(date => {
+  countryData.forEach((date) => {
     globalData["time_data"][date] = {
       infected: 0,
       deaths: 0,
-      recovered: 0
+      recovered: 0,
     };
   });
   return globalData;
@@ -136,9 +136,9 @@ getGlobalTotals = (countryData, globalData) => {
 getDailyTotals = (countryData, globalData) => {
   dates = Object.keys(globalData["time_data"]);
   labels = ["infected", "deaths", "recovered"];
-  labels.forEach(label => {
+  labels.forEach((label) => {
     sum = 0;
-    dates.forEach(date => {
+    dates.forEach((date) => {
       Object.entries(countryData).forEach(([country, stats]) => {
         sum += stats["time_data"][label][date];
       });
@@ -152,7 +152,7 @@ getDailyTotals = (countryData, globalData) => {
 /**
  * Create JSON formated Global data using the Global schema class
  */
-formatGlobalData = data => {
+formatGlobalData = (data) => {
   output = {};
   Object.entries(data["time_data"]).forEach(([date, value]) => {
     let infected = value["infected"];

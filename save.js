@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-readFileData = source => {
+readFileData = (source) => {
   const buffer = fs.readFileSync(source);
   let json = JSON.parse(buffer);
   return json;
