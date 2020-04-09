@@ -24,7 +24,9 @@ jobs:
       - name: Remove old Data
         run: rm -r Data/data_sets/*
       - name: Format data to JSON format
-        run: node formatGlobal.js
+        run: node formatGlobal.js 
+      - name: Format USA data in JSON format
+        run: node formatUSA.js
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
