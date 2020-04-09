@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format":"echo 'RUNNING PRITTIER'; prettier --write '**/*.{js,yml,md}'",
-    "start": "npm run format && echo 'FETCHING DATA'; node fetch.js && node formatGlobal.js && npm run archive",
+    "start": "npm run format && echo 'FETCHING DATA'; node fetch.js && node formatGlobal.js && node formatUSA.js && npm run archive",
     "archive": "node save.js",
     "purge-archive": "rm -rf ./Data/archive/* ",
     "purge-json": "rm -r ./Data/data_sets/*",
