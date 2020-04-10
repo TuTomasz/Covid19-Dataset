@@ -65,9 +65,82 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
 
 updating will be back soon
 
+### **_USA Daily Data_**
+
+```YML
+{
+  "2020-03-02": {
+    "california": {
+      "date": "2020-03-02",
+      "total_infected": 21,
+      "total_deaths": 0,
+      "new_deaths": 0,
+      "deaths_per_hour": 0,
+      "percent_infected": 0,
+      "percent_deaths": 0,
+      "doubling_rate": 5.36,
+      "mortality_rate": 0
+    },
+    ...
+    "new_york": {
+      "date": "2020-03-02",
+      "total_infected": 1,
+      "total_deaths": 0,
+      "new_deaths": 0,
+      "deaths_per_hour": 0,
+      "percent_infected": 0,
+      "percent_deaths": 0,
+      "doubling_rate": 0,
+      "mortality_rate": 0
+    },
+  },
+  ...
+  "2020-04-08": {
+    "california": {
+      "date": "2020-04-08",
+      "total_infected": 18897,
+      "total_deaths": 495,
+      "new_deaths": 63,
+      "deaths_per_hour": 3,
+      "percent_infected": 0.006,
+      "percent_deaths": 0,
+      "doubling_rate": 8.963,
+      "mortality_rate": 2.619
+    },
+    ...
+    "new_york": {
+      "date": "2020-04-08",
+      "total_infected": 151061,
+      "total_deaths": 6268,
+      "new_deaths": 779,
+      "deaths_per_hour": 32,
+      "percent_infected": 0.046,
+      "percent_deaths": 0.002,
+      "doubling_rate": 12.249,
+      "mortality_rate": 4.149
+    },
+  }
+}
+```
+
+## **Statistics**
+
+- **_date_** - day of intrest
+- **_total_infected_** - number of infections in a given state
+- **_total_deaths_** - number of deaths in a given state
+- **_new_deaths_** - number of deaths since previous day in a given state
+- **_deaths_per_hour_** - number of deaths per hour
+- **_percent_infected_** - percent of people infected based USA population
+- **_percent_deaths_** - percent of deaths based on USA population
+- **_doubling_rate_** - virus dubling rate in days (5 day rolling period)
+- **_mortality_rate_** - current mortality rate of the state of interest
+
 ## **Url's**
 
-- http://tiny.cc/Covid-19-global -global dataset
+replace below for desired dataset in the next section
+
+- http://tiny.cc/Covid-19-global - Global dataset
+- http://tiny.cc/Covid-19-usa - United States dataset
 
 ## **Usage Example**
 
