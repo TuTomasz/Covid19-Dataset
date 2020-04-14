@@ -144,13 +144,25 @@ replace below for desired dataset in the next section
 
 ## **Usage Example**
 
-This is example using Javascript to fetch data
+This is example using Javascript to fetch global data.
 
 ```javascript
 fetch("http://tiny.cc/Covid-19-global")
   .then((response) => response.json())
   .then((data) => {
     console.log(data);
+  });
+```
+
+This is example using Javascript to fetch "New York" data from USA data.
+
+```javascript
+fetch("http://tiny.cc/Covid-19-usa")
+  .then((response) => response.json())
+  .then((data) => {
+    Object.entries(data).forEach(([date, states]) => {
+      console.log(states["new_york"]);
+    });
   });
 ```
 
