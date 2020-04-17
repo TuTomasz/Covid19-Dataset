@@ -61,63 +61,64 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
 - **_doubling_rate_** - dubling rate in days (5 day rolling period)
 - **_mortality_rate_** - current mortality rate of the country of interest
 
-### **_Country Daily Data_**
-
-updating will be back soon
 
 ### **_USA Daily Data_**
 
 ```YML
 {
-  "2020-03-02": {
+  "2020-03-29": {
     "california": {
-      "date": "2020-03-02",
-      "total_infected": 21,
-      "total_deaths": 0,
-      "new_deaths": 0,
-      "deaths_per_hour": 0,
-      "percent_infected": 0,
+      "date": "2020-03-29",
+      "total_infected": 5852,
+      "total_deaths": 124,
+      "state_population": 39510000,
+      "new_deaths": 14,
+      "deaths_per_hour": 1,
+      "percent_infected": 0.015,
       "percent_deaths": 0,
-      "doubling_rate": 5.36,
-      "mortality_rate": 0
+      "doubling_rate": 5.182,
+      "mortality_rate": 2.119
     },
     ...
     "new_york": {
-      "date": "2020-03-02",
-      "total_infected": 1,
-      "total_deaths": 0,
-      "new_deaths": 0,
-      "deaths_per_hour": 0,
-      "percent_infected": 0,
-      "percent_deaths": 0,
-      "doubling_rate": 0,
-      "mortality_rate": 0
+      "date": "2020-03-29",
+      "total_infected": 59648,
+      "total_deaths": 1063,
+      "state_population": 8399000,
+      "new_deaths": 180,
+      "deaths_per_hour": 8,
+      "percent_infected": 0.71,
+      "percent_deaths": 0.013,
+      "doubling_rate": 5.254,
+      "mortality_rate": 1.782
     },
   },
   ...
-  "2020-04-08": {
+  "2020-04-16": {
     "california": {
-      "date": "2020-04-08",
-      "total_infected": 18897,
-      "total_deaths": 495,
-      "new_deaths": 63,
-      "deaths_per_hour": 3,
-      "percent_infected": 0.006,
-      "percent_deaths": 0,
-      "doubling_rate": 8.963,
-      "mortality_rate": 2.619
+      "date": "2020-04-16",
+      "total_infected": 27677,
+      "total_deaths": 956,
+      "state_population": 39510000,
+      "new_deaths": 96,
+      "deaths_per_hour": 4,
+      "percent_infected": 0.07,
+      "percent_deaths": 0.002,
+      "doubling_rate": 17.859,
+      "mortality_rate": 3.454
     },
     ...
     "new_york": {
-      "date": "2020-04-08",
-      "total_infected": 151061,
-      "total_deaths": 6268,
-      "new_deaths": 779,
-      "deaths_per_hour": 32,
-      "percent_infected": 0.046,
-      "percent_deaths": 0.002,
-      "doubling_rate": 12.249,
-      "mortality_rate": 4.149
+      "date": "2020-04-16",
+      "total_infected": 223691,
+      "total_deaths": 14832,
+      "state_population": 8399000,
+      "new_deaths": 3215,
+      "deaths_per_hour": 134,
+      "percent_infected": 2.663,
+      "percent_deaths": 0.177,
+      "doubling_rate": 20.587,
+      "mortality_rate": 6.631
     },
   }
 }
@@ -128,10 +129,11 @@ updating will be back soon
 - **_date_** - day of intrest
 - **_total_infected_** - number of infections in a given state
 - **_total_deaths_** - number of deaths in a given state
+- **_state_population_** - state total population
 - **_new_deaths_** - number of deaths since previous day in a given state
 - **_deaths_per_hour_** - number of deaths per hour
-- **_percent_infected_** - percent of people infected based USA population
-- **_percent_deaths_** - percent of deaths based on USA population
+- **_percent_infected_** - percent of people infected based on State population
+- **_percent_deaths_** - percent of deaths based on State population
 - **_doubling_rate_** - virus dubling rate in days (5 day rolling period)
 - **_mortality_rate_** - current mortality rate of the state of interest
 
