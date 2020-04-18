@@ -54,9 +54,10 @@ async function createBlueprint(raw, formated) {
   });
 
   Object.entries(raw[0]).forEach(([key, value]) => {
-    let dateReg = /^[0-9]{1,2}[/][0-9]{1,2}[/][0-9]{1,2}$/g;
+    let dateReg = /^[0-9]{1,2}[\/][0-9]{1,2}[\/][0-9]{4}$/gm;
     if (dateReg.test(key)) {
       let date = new Date(key).toJSON().split("T")[0];
+
       bluePrint[date] = states;
     }
   });
@@ -78,7 +79,7 @@ async function formatCaseData(raw, formated) {
 
   raw.forEach((element) => {
     Object.entries(element).forEach(([key, value]) => {
-      let dateReg = /^[0-9]{1,2}[/][0-9]{1,2}[/][0-9]{1,2}$/g;
+      let dateReg = /^[0-9]{1,2}[/][0-9]{1,2}[/][0-9]{4}$/g;
       if (dateReg.test(key)) {
         rawDates.add(key);
       }
@@ -128,7 +129,7 @@ async function formatDeathData(raw, formated) {
 
   raw.forEach((element) => {
     Object.entries(element).forEach(([key, value]) => {
-      let dateReg = /^[0-9]{1,2}[/][0-9]{1,2}[/][0-9]{1,2}$/g;
+      let dateReg = /^[0-9]{1,2}[/][0-9]{1,2}[/][0-9]{4}$/g;
       if (dateReg.test(key)) {
         rawDates.add(key);
       }

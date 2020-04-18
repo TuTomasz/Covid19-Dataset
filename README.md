@@ -61,7 +61,6 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
 - **_doubling_rate_** - dubling rate in days (5 day rolling period)
 - **_mortality_rate_** - current mortality rate of the country of interest
 
-
 ### **_USA Daily Data_**
 
 ```YML
