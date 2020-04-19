@@ -18,6 +18,7 @@ let global_data = readFileData("./Data/data_sets/global_data_v2.json");
 let usa_data = readFileData("./Data/data_sets/usa_data_v2.json");
 
 let date = new Date();
+console.log(date);
 date.setDate(date.getDate() - 1);
 date = date.toJSON().split("T")[0];
 
