@@ -13,7 +13,6 @@
     "purge-json": "rm -r ./Data/data_sets/*",
     "purge-csv": "rm -r ./Data/raw/*",
     "purge-all": " npm run purge-json; npm run purge-csv; npm run purge-archive"
-
   },
   "keywords": [
     "coronavirus",
