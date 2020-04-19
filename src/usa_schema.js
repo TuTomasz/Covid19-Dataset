@@ -4,6 +4,7 @@ class State {
     this.total_infected = infected;
     this.total_deaths = deaths;
     this.state_population = State.state_population[state];
+    this.new_cases = this.getNewCases(state, previousDayData);
     this.new_deaths = this.getNewDeaths(state, previousDayData);
     this.deaths_per_hour = this.getDeathsPeerHour(state, previousDayData);
     this.percent_infected = this.getPercentInfected(state);
@@ -65,6 +66,16 @@ class State {
       let previousDayDeaths = data[data.length - 2][state][1];
       let addedDeaths = currentDayDeaths - previousDayDeaths;
       return addedDeaths;
+    }
+  }
+  getNewCases(state, data) {
+    if (data.length == 1) {
+      return data[0][state][0];
+    } else {
+      let currentDayCases = data[data.length - 1][state][0];
+      let previousDayCases = data[data.length - 2][state][0];
+      let addedCases = currentDayCases - previousDayCases;
+      return addedCases;
     }
   }
 }

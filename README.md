@@ -71,6 +71,7 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
       "total_infected": 5852,
       "total_deaths": 124,
       "state_population": 39510000,
+      "new_cases": 757,
       "new_deaths": 14,
       "deaths_per_hour": 1,
       "percent_infected": 0.015,
@@ -84,6 +85,7 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
       "total_infected": 59648,
       "total_deaths": 1063,
       "state_population": 8399000,
+      "new_cases": 7238,
       "new_deaths": 180,
       "deaths_per_hour": 8,
       "percent_infected": 0.71,
@@ -99,6 +101,7 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
       "total_infected": 27677,
       "total_deaths": 956,
       "state_population": 39510000,
+      "new_cases": 991,
       "new_deaths": 96,
       "deaths_per_hour": 4,
       "percent_infected": 0.07,
@@ -112,6 +115,7 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
       "total_infected": 223691,
       "total_deaths": 14832,
       "state_population": 8399000,
+      "new_cases": 9237,
       "new_deaths": 3215,
       "deaths_per_hour": 134,
       "percent_infected": 2.663,
@@ -129,6 +133,7 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
 - **_total_infected_** - number of infections in a given state
 - **_total_deaths_** - number of deaths in a given state
 - **_state_population_** - state total population
+- **_new_cases_** - number of cases since previous day in a given state
 - **_new_deaths_** - number of deaths since previous day in a given state
 - **_deaths_per_hour_** - number of deaths per hour
 - **_percent_infected_** - percent of people infected based on State population
