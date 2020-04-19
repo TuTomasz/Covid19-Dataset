@@ -8,10 +8,12 @@
     "format": "echo 'RUNNING PRITTIER'; prettier --write '**/*.{js,yml,md}'",
     "start": "npm run format && echo 'FETCHING DATA'; node fetch.js && node formatGlobal.js && node formatUSA.js && npm run archive",
     "archive": "node save.js",
+    "backup": "cp ./Data/data_sets/* ./Data/backup/ ",
     "purge-archive": "rm -rf ./Data/archive/* ",
     "purge-json": "rm -r ./Data/data_sets/*",
     "purge-csv": "rm -r ./Data/raw/*",
     "purge-all": " npm run purge-json; npm run purge-csv; npm run purge-archive"
+
   },
   "keywords": [
     "coronavirus",
