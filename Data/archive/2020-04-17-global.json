@@ -1,0 +1,15 @@
+
+{
+    "date": "2020-04-17",
+    "total_infected": 2240190,
+    "total_recovered": 568343,
+    "total_deaths": 153821,
+    "new_deaths": 10021,
+    "deaths_per_hour": 418,
+    "percent_infected": 0.029,
+    "percent_recovered": 0.007,
+    "percent_deaths": 0.002,
+    "doubling_rate": 21.372,
+    "mortality_rate": 6.866
+}
+
