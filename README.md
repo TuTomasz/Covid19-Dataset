@@ -21,6 +21,7 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
     "total_infected": 5578,
     "total_recovered": 107,
     "total_deaths": 131,
+    "new_cases": 2651,
     "new_deaths": 49,
     "deaths_per_hour": 2,
     "percent_infected": 0,
@@ -36,6 +37,7 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
     "total_infected": 1197405,
     "total_recovered": 246152,
     "total_deaths": 64606,
+    "new_cases": 80159,
     "new_deaths": 5819,
     "deaths_per_hour": 242,
     "percent_infected": 0.015,
@@ -53,6 +55,7 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
 - **_total_infected_** - number of infections globaly
 - **_total_recoveries_** - number of recoveries globaly
 - **_total_deaths_** - number of deaths globaly
+- **_new_cases** - number of cases since previous day
 - **_new_deaths_** - number of deaths since previous day
 - **_deaths_per_hour_** - number of deaths per hour
 - **_percent_infected_** - percent of people infected based on global population

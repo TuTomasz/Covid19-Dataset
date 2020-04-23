@@ -57,7 +57,6 @@ async function createBlueprint(raw, formated) {
     let dateReg = /^[0-9]{1,2}[\/][0-9]{1,2}[\/][0-9]{2,4}$/gm;
     if (dateReg.test(key)) {
       let date = new Date(key).toJSON().split("T")[0];
-      console.log(key);
       bluePrint[date] = states;
     }
   });

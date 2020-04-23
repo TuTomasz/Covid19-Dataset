@@ -4,6 +4,7 @@ class Global {
     this.total_infected = infected;
     this.total_recovered = recovered;
     this.total_deaths = deaths;
+    this.new_cases = null;
     this.new_deaths = null;
     this.deaths_per_hour = 0;
     this.percent_infected = this.getPercentInfected();
@@ -23,6 +24,7 @@ class Global {
     }
     if (Global.daily_death_totals.length > 0) {
       this.new_deaths = this.getNewDeaths(Global.daily_death_totals);
+      this.new_cases = this.getNewCases(Global.daily_infection_totals);
       this.deaths_per_hour = this.getDeathsPeerHour(Global.daily_death_totals);
     }
   }
@@ -85,6 +87,16 @@ class Global {
       let previousDayDeaths = data[data.length - 2];
       let addedDeaths = currentDayDeaths - previousDayDeaths;
       return addedDeaths;
+    }
+  }
+  getNewCases(data) {
+    if (data.length == 1) {
+      return data[0];
+    } else {
+      let currentDayCases = data[data.length - 1];
+      let previousDayCases = data[data.length - 2];
+      let addedCases = currentDayCases - previousDayCases;
+      return addedCases;
     }
   }
 }
