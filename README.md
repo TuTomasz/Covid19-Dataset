@@ -55,7 +55,7 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
 - **_total_infected_** - number of infections globaly
 - **_total_recoveries_** - number of recoveries globaly
 - **_total_deaths_** - number of deaths globaly
-- **_new_cases** - number of cases since previous day
+- **\_new_cases** - number of cases since previous day
 - **_new_deaths_** - number of deaths since previous day
 - **_deaths_per_hour_** - number of deaths per hour
 - **_percent_infected_** - percent of people infected based on global population
