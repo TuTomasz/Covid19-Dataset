@@ -6,7 +6,7 @@
 
 ## **Description**
 
-This project converts csv format data from the 2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE to JSON data shown below with aditional fields and statistics coming soon.
+This project converts csv format data from the 2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins CSSE to JSON data shown below with additional fields and statistics coming soon.
 
 The data **_auto-updates_** at specified intervals to ensure its always up to date with the original source.
 
@@ -51,17 +51,17 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
 
 ## **Statistics**
 
-- **_date_** - day of intrest
-- **_total_infected_** - number of infections globaly
-- **_total_recoveries_** - number of recoveries globaly
-- **_total_deaths_** - number of deaths globaly
+- **_date_** - day of interest
+- **_total_infected_** - number of infections globally
+- **_total_recoveries_** - number of recoveries globally
+- **_total_deaths_** - number of deaths globally
 - **\_new_cases** - number of cases since previous day
 - **_new_deaths_** - number of deaths since previous day
 - **_deaths_per_hour_** - number of deaths per hour
 - **_percent_infected_** - percent of people infected based on global population
 - **_percent_recovered_** - percent of people recovered based on global population
 - **_percent_deaths_** - percent of deaths based on global population
-- **_doubling_rate_** - dubling rate in days (5 day rolling period)
+- **_doubling_rate_** - doubling rate in days (5 day rolling period)
 - **_mortality_rate_** - current mortality rate of the country of interest
 
 ### **_USA Daily Data_**
@@ -132,7 +132,7 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
 
 ## **Statistics**
 
-- **_date_** - day of intrest
+- **_date_** - day of interest
 - **_total_infected_** - number of infections in a given state
 - **_total_deaths_** - number of deaths in a given state
 - **_state_population_** - state total population
@@ -141,7 +141,7 @@ The data **_auto-updates_** at specified intervals to ensure its always up to da
 - **_deaths_per_hour_** - number of deaths per hour
 - **_percent_infected_** - percent of people infected based on State population
 - **_percent_deaths_** - percent of deaths based on State population
-- **_doubling_rate_** - virus dubling rate in days (5 day rolling period)
+- **_doubling_rate_** - virus doubling rate in days (5 day rolling period)
 - **_mortality_rate_** - current mortality rate of the state of interest
 
 ## **Url's**
